@@ -1,0 +1,6525 @@
+/*
+* Remix Icon v2.4.0
+* https://remixicon.com
+* https://github.com/Remix-Design/RemixIcon
+*
+* Copyright RemixIcon.com
+* Released under the Apache License Version 2.0
+*
+* Date: 2020-04-20
+*/
+@font-face {
+  font-family: "remixicon";
+  src: url('remixicon.eot?t=1587359857360');
+  /* IE9*/
+  src: url('remixicon.eot?t=1587359857360#iefix') format('embedded-opentype'), /* IE6-IE8 */ url("remixicon.woff2?t=1587359857360") format("woff2"), url("remixicon.woff?t=1587359857360") format("woff"), url('remixicon.ttf?t=1587359857360') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/ url('remixicon.svg?t=1587359857360#remixicon') format('svg');
+  /* iOS 4.1- */
+  font-display: swap;
+}
+[class^="ri-"],
+[class*=" ri-"] {
+  font-family: 'remixicon' !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.ri-lg {
+  font-size: 1.3333em;
+  line-height: 0.75em;
+  vertical-align: -0.0667em;
+}
+.ri-xl {
+  font-size: 1.5em;
+  line-height: 0.6666em;
+  vertical-align: -0.075em;
+}
+.ri-xxs {
+  font-size: .5em;
+}
+.ri-xs {
+  font-size: .75em;
+}
+.ri-sm {
+  font-size: 0.875em;
+}
+.ri-1x {
+  font-size: 1em;
+}
+.ri-2x {
+  font-size: 2em;
+}
+.ri-3x {
+  font-size: 3em;
+}
+.ri-4x {
+  font-size: 4em;
+}
+.ri-5x {
+  font-size: 5em;
+}
+.ri-6x {
+  font-size: 6em;
+}
+.ri-7x {
+  font-size: 7em;
+}
+.ri-8x {
+  font-size: 8em;
+}
+.ri-9x {
+  font-size: 9em;
+}
+.ri-10x {
+  font-size: 10em;
+}
+.ri-fw {
+  text-align: center;
+  width: 1.25em;
+}
+:global .ri-4k-fill:before {
+  content: "\ea01";
+}
+:global .ri-4k-line:before {
+  content: "\ea02";
+}
+:global .ri-a-b:before {
+  content: "\ea03";
+}
+:global .ri-account-box-fill:before {
+  content: "\ea04";
+}
+:global .ri-account-box-line:before {
+  content: "\ea05";
+}
+:global .ri-account-circle-fill:before {
+  content: "\ea06";
+}
+:global .ri-account-circle-line:before {
+  content: "\ea07";
+}
+:global .ri-account-pin-box-fill:before {
+  content: "\ea08";
+}
+:global .ri-account-pin-box-line:before {
+  content: "\ea09";
+}
+:global .ri-account-pin-circle-fill:before {
+  content: "\ea0a";
+}
+:global .ri-account-pin-circle-line:before {
+  content: "\ea0b";
+}
+:global .ri-add-box-fill:before {
+  content: "\ea0c";
+}
+:global .ri-add-box-line:before {
+  content: "\ea0d";
+}
+:global .ri-add-circle-fill:before {
+  content: "\ea0e";
+}
+:global .ri-add-circle-line:before {
+  content: "\ea0f";
+}
+:global .ri-add-fill:before {
+  content: "\ea10";
+}
+:global .ri-add-line:before {
+  content: "\ea11";
+}
+:global .ri-admin-fill:before {
+  content: "\ea12";
+}
+:global .ri-admin-line:before {
+  content: "\ea13";
+}
+:global .ri-advertisement-fill:before {
+  content: "\ea14";
+}
+:global .ri-advertisement-line:before {
+  content: "\ea15";
+}
+:global .ri-airplay-fill:before {
+  content: "\ea16";
+}
+:global .ri-airplay-line:before {
+  content: "\ea17";
+}
+:global .ri-alarm-fill:before {
+  content: "\ea18";
+}
+:global .ri-alarm-line:before {
+  content: "\ea19";
+}
+:global .ri-alarm-warning-fill:before {
+  content: "\ea1a";
+}
+:global .ri-alarm-warning-line:before {
+  content: "\ea1b";
+}
+:global .ri-album-fill:before {
+  content: "\ea1c";
+}
+:global .ri-album-line:before {
+  content: "\ea1d";
+}
+:global .ri-alert-fill:before {
+  content: "\ea1e";
+}
+:global .ri-alert-line:before {
+  content: "\ea1f";
+}
+:global .ri-aliens-fill:before {
+  content: "\ea20";
+}
+:global .ri-aliens-line:before {
+  content: "\ea21";
+}
+:global .ri-align-bottom:before {
+  content: "\ea22";
+}
+:global .ri-align-center:before {
+  content: "\ea23";
+}
+:global .ri-align-justify:before {
+  content: "\ea24";
+}
+:global .ri-align-left:before {
+  content: "\ea25";
+}
+:global .ri-align-right:before {
+  content: "\ea26";
+}
+:global .ri-align-top:before {
+  content: "\ea27";
+}
+:global .ri-align-vertically:before {
+  content: "\ea28";
+}
+:global .ri-alipay-fill:before {
+  content: "\ea29";
+}
+:global .ri-alipay-line:before {
+  content: "\ea2a";
+}
+:global .ri-amazon-fill:before {
+  content: "\ea2b";
+}
+:global .ri-amazon-line:before {
+  content: "\ea2c";
+}
+:global .ri-anchor-fill:before {
+  content: "\ea2d";
+}
+:global .ri-anchor-line:before {
+  content: "\ea2e";
+}
+:global .ri-ancient-gate-fill:before {
+  content: "\ea2f";
+}
+:global .ri-ancient-gate-line:before {
+  content: "\ea30";
+}
+:global .ri-ancient-pavilion-fill:before {
+  content: "\ea31";
+}
+:global .ri-ancient-pavilion-line:before {
+  content: "\ea32";
+}
+:global .ri-android-fill:before {
+  content: "\ea33";
+}
+:global .ri-android-line:before {
+  content: "\ea34";
+}
+:global .ri-angularjs-fill:before {
+  content: "\ea35";
+}
+:global .ri-angularjs-line:before {
+  content: "\ea36";
+}
+:global .ri-anticlockwise-2-fill:before {
+  content: "\ea37";
+}
+:global .ri-anticlockwise-2-line:before {
+  content: "\ea38";
+}
+:global .ri-anticlockwise-fill:before {
+  content: "\ea39";
+}
+:global .ri-anticlockwise-line:before {
+  content: "\ea3a";
+}
+:global .ri-app-store-fill:before {
+  content: "\ea3b";
+}
+:global .ri-app-store-line:before {
+  content: "\ea3c";
+}
+:global .ri-apple-fill:before {
+  content: "\ea3d";
+}
+:global .ri-apple-line:before {
+  content: "\ea3e";
+}
+:global .ri-apps-2-fill:before {
+  content: "\ea3f";
+}
+:global .ri-apps-2-line:before {
+  content: "\ea40";
+}
+:global .ri-apps-fill:before {
+  content: "\ea41";
+}
+:global .ri-apps-line:before {
+  content: "\ea42";
+}
+:global .ri-archive-drawer-fill:before {
+  content: "\ea43";
+}
+:global .ri-archive-drawer-line:before {
+  content: "\ea44";
+}
+:global .ri-archive-fill:before {
+  content: "\ea45";
+}
+:global .ri-archive-line:before {
+  content: "\ea46";
+}
+:global .ri-arrow-down-circle-fill:before {
+  content: "\ea47";
+}
+:global .ri-arrow-down-circle-line:before {
+  content: "\ea48";
+}
+:global .ri-arrow-down-fill:before {
+  content: "\ea49";
+}
+:global .ri-arrow-down-line:before {
+  content: "\ea4a";
+}
+:global .ri-arrow-down-s-fill:before {
+  content: "\ea4b";
+}
+:global .ri-arrow-down-s-line:before {
+  content: "\ea4c";
+}
+:global .ri-arrow-drop-down-fill:before {
+  content: "\ea4d";
+}
+:global .ri-arrow-drop-down-line:before {
+  content: "\ea4e";
+}
+:global .ri-arrow-drop-left-fill:before {
+  content: "\ea4f";
+}
+:global .ri-arrow-drop-left-line:before {
+  content: "\ea50";
+}
+:global .ri-arrow-drop-right-fill:before {
+  content: "\ea51";
+}
+:global .ri-arrow-drop-right-line:before {
+  content: "\ea52";
+}
+:global .ri-arrow-drop-up-fill:before {
+  content: "\ea53";
+}
+:global .ri-arrow-drop-up-line:before {
+  content: "\ea54";
+}
+:global .ri-arrow-go-back-fill:before {
+  content: "\ea55";
+}
+:global .ri-arrow-go-back-line:before {
+  content: "\ea56";
+}
+:global .ri-arrow-go-forward-fill:before {
+  content: "\ea57";
+}
+:global .ri-arrow-go-forward-line:before {
+  content: "\ea58";
+}
+:global .ri-arrow-left-circle-fill:before {
+  content: "\ea59";
+}
+:global .ri-arrow-left-circle-line:before {
+  content: "\ea5a";
+}
+:global .ri-arrow-left-down-fill:before {
+  content: "\ea5b";
+}
+:global .ri-arrow-left-down-line:before {
+  content: "\ea5c";
+}
+:global .ri-arrow-left-fill:before {
+  content: "\ea5d";
+}
+:global .ri-arrow-left-line:before {
+  content: "\ea5e";
+}
+:global .ri-arrow-left-right-fill:before {
+  content: "\ea5f";
+}
+:global .ri-arrow-left-right-line:before {
+  content: "\ea60";
+}
+:global .ri-arrow-left-s-fill:before {
+  content: "\ea61";
+}
+:global .ri-arrow-left-s-line:before {
+  content: "\ea62";
+}
+:global .ri-arrow-left-up-fill:before {
+  content: "\ea63";
+}
+:global .ri-arrow-left-up-line:before {
+  content: "\ea64";
+}
+:global .ri-arrow-right-circle-fill:before {
+  content: "\ea65";
+}
+:global .ri-arrow-right-circle-line:before {
+  content: "\ea66";
+}
+:global .ri-arrow-right-down-fill:before {
+  content: "\ea67";
+}
+:global .ri-arrow-right-down-line:before {
+  content: "\ea68";
+}
+:global .ri-arrow-right-fill:before {
+  content: "\ea69";
+}
+:global .ri-arrow-right-line:before {
+  content: "\ea6a";
+}
+:global .ri-arrow-right-s-fill:before {
+  content: "\ea6b";
+}
+:global .ri-arrow-right-s-line:before {
+  content: "\ea6c";
+}
+:global .ri-arrow-right-up-fill:before {
+  content: "\ea6d";
+}
+:global .ri-arrow-right-up-line:before {
+  content: "\ea6e";
+}
+:global .ri-arrow-up-circle-fill:before {
+  content: "\ea6f";
+}
+:global .ri-arrow-up-circle-line:before {
+  content: "\ea70";
+}
+:global .ri-arrow-up-down-fill:before {
+  content: "\ea71";
+}
+:global .ri-arrow-up-down-line:before {
+  content: "\ea72";
+}
+:global .ri-arrow-up-fill:before {
+  content: "\ea73";
+}
+:global .ri-arrow-up-line:before {
+  content: "\ea74";
+}
+:global .ri-arrow-up-s-fill:before {
+  content: "\ea75";
+}
+:global .ri-arrow-up-s-line:before {
+  content: "\ea76";
+}
+:global .ri-artboard-2-fill:before {
+  content: "\ea77";
+}
+:global .ri-artboard-2-line:before {
+  content: "\ea78";
+}
+:global .ri-artboard-fill:before {
+  content: "\ea79";
+}
+:global .ri-artboard-line:before {
+  content: "\ea7a";
+}
+:global .ri-article-fill:before {
+  content: "\ea7b";
+}
+:global .ri-article-line:before {
+  content: "\ea7c";
+}
+:global .ri-aspect-ratio-fill:before {
+  content: "\ea7d";
+}
+:global .ri-aspect-ratio-line:before {
+  content: "\ea7e";
+}
+:global .ri-asterisk:before {
+  content: "\ea7f";
+}
+:global .ri-at-fill:before {
+  content: "\ea80";
+}
+:global .ri-at-line:before {
+  content: "\ea81";
+}
+:global .ri-attachment-2:before {
+  content: "\ea82";
+}
+:global .ri-attachment-fill:before {
+  content: "\ea83";
+}
+:global .ri-attachment-line:before {
+  content: "\ea84";
+}
+:global .ri-auction-fill:before {
+  content: "\ea85";
+}
+:global .ri-auction-line:before {
+  content: "\ea86";
+}
+:global .ri-award-fill:before {
+  content: "\ea87";
+}
+:global .ri-award-line:before {
+  content: "\ea88";
+}
+:global .ri-baidu-fill:before {
+  content: "\ea89";
+}
+:global .ri-baidu-line:before {
+  content: "\ea8a";
+}
+:global .ri-ball-pen-fill:before {
+  content: "\ea8b";
+}
+:global .ri-ball-pen-line:before {
+  content: "\ea8c";
+}
+:global .ri-bank-card-2-fill:before {
+  content: "\ea8d";
+}
+:global .ri-bank-card-2-line:before {
+  content: "\ea8e";
+}
+:global .ri-bank-card-fill:before {
+  content: "\ea8f";
+}
+:global .ri-bank-card-line:before {
+  content: "\ea90";
+}
+:global .ri-bank-fill:before {
+  content: "\ea91";
+}
+:global .ri-bank-line:before {
+  content: "\ea92";
+}
+:global .ri-bar-chart-2-fill:before {
+  content: "\ea93";
+}
+:global .ri-bar-chart-2-line:before {
+  content: "\ea94";
+}
+:global .ri-bar-chart-box-fill:before {
+  content: "\ea95";
+}
+:global .ri-bar-chart-box-line:before {
+  content: "\ea96";
+}
+:global .ri-bar-chart-fill:before {
+  content: "\ea97";
+}
+:global .ri-bar-chart-grouped-fill:before {
+  content: "\ea98";
+}
+:global .ri-bar-chart-grouped-line:before {
+  content: "\ea99";
+}
+:global .ri-bar-chart-horizontal-fill:before {
+  content: "\ea9a";
+}
+:global .ri-bar-chart-horizontal-line:before {
+  content: "\ea9b";
+}
+:global .ri-bar-chart-line:before {
+  content: "\ea9c";
+}
+:global .ri-barcode-box-fill:before {
+  content: "\ea9d";
+}
+:global .ri-barcode-box-line:before {
+  content: "\ea9e";
+}
+:global .ri-barcode-fill:before {
+  content: "\ea9f";
+}
+:global .ri-barcode-line:before {
+  content: "\eaa0";
+}
+:global .ri-barricade-fill:before {
+  content: "\eaa1";
+}
+:global .ri-barricade-line:before {
+  content: "\eaa2";
+}
+:global .ri-base-station-fill:before {
+  content: "\eaa3";
+}
+:global .ri-base-station-line:before {
+  content: "\eaa4";
+}
+:global .ri-basketball-fill:before {
+  content: "\eaa5";
+}
+:global .ri-basketball-line:before {
+  content: "\eaa6";
+}
+:global .ri-battery-2-charge-fill:before {
+  content: "\eaa7";
+}
+:global .ri-battery-2-charge-line:before {
+  content: "\eaa8";
+}
+:global .ri-battery-2-fill:before {
+  content: "\eaa9";
+}
+:global .ri-battery-2-line:before {
+  content: "\eaaa";
+}
+:global .ri-battery-charge-fill:before {
+  content: "\eaab";
+}
+:global .ri-battery-charge-line:before {
+  content: "\eaac";
+}
+:global .ri-battery-fill:before {
+  content: "\eaad";
+}
+:global .ri-battery-line:before {
+  content: "\eaae";
+}
+:global .ri-battery-low-fill:before {
+  content: "\eaaf";
+}
+:global .ri-battery-low-line:before {
+  content: "\eab0";
+}
+:global .ri-battery-saver-fill:before {
+  content: "\eab1";
+}
+:global .ri-battery-saver-line:before {
+  content: "\eab2";
+}
+:global .ri-battery-share-fill:before {
+  content: "\eab3";
+}
+:global .ri-battery-share-line:before {
+  content: "\eab4";
+}
+:global .ri-bear-smile-fill:before {
+  content: "\eab5";
+}
+:global .ri-bear-smile-line:before {
+  content: "\eab6";
+}
+:global .ri-behance-fill:before {
+  content: "\eab7";
+}
+:global .ri-behance-line:before {
+  content: "\eab8";
+}
+:global .ri-bell-fill:before {
+  content: "\eab9";
+}
+:global .ri-bell-line:before {
+  content: "\eaba";
+}
+:global .ri-bike-fill:before {
+  content: "\eabb";
+}
+:global .ri-bike-line:before {
+  content: "\eabc";
+}
+:global .ri-bilibili-fill:before {
+  content: "\eabd";
+}
+:global .ri-bilibili-line:before {
+  content: "\eabe";
+}
+:global .ri-bill-fill:before {
+  content: "\eabf";
+}
+:global .ri-bill-line:before {
+  content: "\eac0";
+}
+:global .ri-billiards-fill:before {
+  content: "\eac1";
+}
+:global .ri-billiards-line:before {
+  content: "\eac2";
+}
+:global .ri-bit-coin-fill:before {
+  content: "\eac3";
+}
+:global .ri-bit-coin-line:before {
+  content: "\eac4";
+}
+:global .ri-blaze-fill:before {
+  content: "\eac5";
+}
+:global .ri-blaze-line:before {
+  content: "\eac6";
+}
+:global .ri-bluetooth-connect-fill:before {
+  content: "\eac7";
+}
+:global .ri-bluetooth-connect-line:before {
+  content: "\eac8";
+}
+:global .ri-bluetooth-fill:before {
+  content: "\eac9";
+}
+:global .ri-bluetooth-line:before {
+  content: "\eaca";
+}
+:global .ri-blur-off-fill:before {
+  content: "\eacb";
+}
+:global .ri-blur-off-line:before {
+  content: "\eacc";
+}
+:global .ri-body-scan-fill:before {
+  content: "\eacd";
+}
+:global .ri-body-scan-line:before {
+  content: "\eace";
+}
+:global .ri-bold:before {
+  content: "\eacf";
+}
+:global .ri-book-2-fill:before {
+  content: "\ead0";
+}
+:global .ri-book-2-line:before {
+  content: "\ead1";
+}
+:global .ri-book-3-fill:before {
+  content: "\ead2";
+}
+:global .ri-book-3-line:before {
+  content: "\ead3";
+}
+:global .ri-book-fill:before {
+  content: "\ead4";
+}
+:global .ri-book-line:before {
+  content: "\ead5";
+}
+:global .ri-book-mark-fill:before {
+  content: "\ead6";
+}
+:global .ri-book-mark-line:before {
+  content: "\ead7";
+}
+:global .ri-book-open-fill:before {
+  content: "\ead8";
+}
+:global .ri-book-open-line:before {
+  content: "\ead9";
+}
+:global .ri-book-read-fill:before {
+  content: "\eada";
+}
+:global .ri-book-read-line:before {
+  content: "\eadb";
+}
+:global .ri-booklet-fill:before {
+  content: "\eadc";
+}
+:global .ri-booklet-line:before {
+  content: "\eadd";
+}
+:global .ri-bookmark-2-fill:before {
+  content: "\eade";
+}
+:global .ri-bookmark-2-line:before {
+  content: "\eadf";
+}
+:global .ri-bookmark-3-fill:before {
+  content: "\eae0";
+}
+:global .ri-bookmark-3-line:before {
+  content: "\eae1";
+}
+:global .ri-bookmark-fill:before {
+  content: "\eae2";
+}
+:global .ri-bookmark-line:before {
+  content: "\eae3";
+}
+:global .ri-boxing-fill:before {
+  content: "\eae4";
+}
+:global .ri-boxing-line:before {
+  content: "\eae5";
+}
+:global .ri-braces-fill:before {
+  content: "\eae6";
+}
+:global .ri-braces-line:before {
+  content: "\eae7";
+}
+:global .ri-brackets-fill:before {
+  content: "\eae8";
+}
+:global .ri-brackets-line:before {
+  content: "\eae9";
+}
+:global .ri-briefcase-2-fill:before {
+  content: "\eaea";
+}
+:global .ri-briefcase-2-line:before {
+  content: "\eaeb";
+}
+:global .ri-briefcase-3-fill:before {
+  content: "\eaec";
+}
+:global .ri-briefcase-3-line:before {
+  content: "\eaed";
+}
+:global .ri-briefcase-4-fill:before {
+  content: "\eaee";
+}
+:global .ri-briefcase-4-line:before {
+  content: "\eaef";
+}
+:global .ri-briefcase-5-fill:before {
+  content: "\eaf0";
+}
+:global .ri-briefcase-5-line:before {
+  content: "\eaf1";
+}
+:global .ri-briefcase-fill:before {
+  content: "\eaf2";
+}
+:global .ri-briefcase-line:before {
+  content: "\eaf3";
+}
+:global .ri-bring-forward:before {
+  content: "\eaf4";
+}
+:global .ri-bring-to-front:before {
+  content: "\eaf5";
+}
+:global .ri-broadcast-fill:before {
+  content: "\eaf6";
+}
+:global .ri-broadcast-line:before {
+  content: "\eaf7";
+}
+:global .ri-brush-2-fill:before {
+  content: "\eaf8";
+}
+:global .ri-brush-2-line:before {
+  content: "\eaf9";
+}
+:global .ri-brush-3-fill:before {
+  content: "\eafa";
+}
+:global .ri-brush-3-line:before {
+  content: "\eafb";
+}
+:global .ri-brush-4-fill:before {
+  content: "\eafc";
+}
+:global .ri-brush-4-line:before {
+  content: "\eafd";
+}
+:global .ri-brush-fill:before {
+  content: "\eafe";
+}
+:global .ri-brush-line:before {
+  content: "\eaff";
+}
+:global .ri-bubble-chart-fill:before {
+  content: "\eb00";
+}
+:global .ri-bubble-chart-line:before {
+  content: "\eb01";
+}
+:global .ri-bug-2-fill:before {
+  content: "\eb02";
+}
+:global .ri-bug-2-line:before {
+  content: "\eb03";
+}
+:global .ri-bug-fill:before {
+  content: "\eb04";
+}
+:global .ri-bug-line:before {
+  content: "\eb05";
+}
+:global .ri-building-2-fill:before {
+  content: "\eb06";
+}
+:global .ri-building-2-line:before {
+  content: "\eb07";
+}
+:global .ri-building-3-fill:before {
+  content: "\eb08";
+}
+:global .ri-building-3-line:before {
+  content: "\eb09";
+}
+:global .ri-building-4-fill:before {
+  content: "\eb0a";
+}
+:global .ri-building-4-line:before {
+  content: "\eb0b";
+}
+:global .ri-building-fill:before {
+  content: "\eb0c";
+}
+:global .ri-building-line:before {
+  content: "\eb0d";
+}
+:global .ri-bus-2-fill:before {
+  content: "\eb0e";
+}
+:global .ri-bus-2-line:before {
+  content: "\eb0f";
+}
+:global .ri-bus-fill:before {
+  content: "\eb10";
+}
+:global .ri-bus-line:before {
+  content: "\eb11";
+}
+:global .ri-bus-wifi-fill:before {
+  content: "\eb12";
+}
+:global .ri-bus-wifi-line:before {
+  content: "\eb13";
+}
+:global .ri-cake-2-fill:before {
+  content: "\eb14";
+}
+:global .ri-cake-2-line:before {
+  content: "\eb15";
+}
+:global .ri-cake-3-fill:before {
+  content: "\eb16";
+}
+:global .ri-cake-3-line:before {
+  content: "\eb17";
+}
+:global .ri-cake-fill:before {
+  content: "\eb18";
+}
+:global .ri-cake-line:before {
+  content: "\eb19";
+}
+:global .ri-calculator-fill:before {
+  content: "\eb1a";
+}
+:global .ri-calculator-line:before {
+  content: "\eb1b";
+}
+:global .ri-calendar-2-fill:before {
+  content: "\eb1c";
+}
+:global .ri-calendar-2-line:before {
+  content: "\eb1d";
+}
+:global .ri-calendar-check-fill:before {
+  content: "\eb1e";
+}
+:global .ri-calendar-check-line:before {
+  content: "\eb1f";
+}
+:global .ri-calendar-event-fill:before {
+  content: "\eb20";
+}
+:global .ri-calendar-event-line:before {
+  content: "\eb21";
+}
+:global .ri-calendar-fill:before {
+  content: "\eb22";
+}
+:global .ri-calendar-line:before {
+  content: "\eb23";
+}
+:global .ri-calendar-todo-fill:before {
+  content: "\eb24";
+}
+:global .ri-calendar-todo-line:before {
+  content: "\eb25";
+}
+:global .ri-camera-2-fill:before {
+  content: "\eb26";
+}
+:global .ri-camera-2-line:before {
+  content: "\eb27";
+}
+:global .ri-camera-3-fill:before {
+  content: "\eb28";
+}
+:global .ri-camera-3-line:before {
+  content: "\eb29";
+}
+:global .ri-camera-fill:before {
+  content: "\eb2a";
+}
+:global .ri-camera-lens-fill:before {
+  content: "\eb2b";
+}
+:global .ri-camera-lens-line:before {
+  content: "\eb2c";
+}
+:global .ri-camera-line:before {
+  content: "\eb2d";
+}
+:global .ri-camera-off-fill:before {
+  content: "\eb2e";
+}
+:global .ri-camera-off-line:before {
+  content: "\eb2f";
+}
+:global .ri-camera-switch-fill:before {
+  content: "\eb30";
+}
+:global .ri-camera-switch-line:before {
+  content: "\eb31";
+}
+:global .ri-car-fill:before {
+  content: "\eb32";
+}
+:global .ri-car-line:before {
+  content: "\eb33";
+}
+:global .ri-car-washing-fill:before {
+  content: "\eb34";
+}
+:global .ri-car-washing-line:before {
+  content: "\eb35";
+}
+:global .ri-caravan-fill:before {
+  content: "\eb36";
+}
+:global .ri-caravan-line:before {
+  content: "\eb37";
+}
+:global .ri-cast-fill:before {
+  content: "\eb38";
+}
+:global .ri-cast-line:before {
+  content: "\eb39";
+}
+:global .ri-cellphone-fill:before {
+  content: "\eb3a";
+}
+:global .ri-cellphone-line:before {
+  content: "\eb3b";
+}
+:global .ri-celsius-fill:before {
+  content: "\eb3c";
+}
+:global .ri-celsius-line:before {
+  content: "\eb3d";
+}
+:global .ri-centos-fill:before {
+  content: "\eb3e";
+}
+:global .ri-centos-line:before {
+  content: "\eb3f";
+}
+:global .ri-character-recognition-fill:before {
+  content: "\eb40";
+}
+:global .ri-character-recognition-line:before {
+  content: "\eb41";
+}
+:global .ri-charging-pile-2-fill:before {
+  content: "\eb42";
+}
+:global .ri-charging-pile-2-line:before {
+  content: "\eb43";
+}
+:global .ri-charging-pile-fill:before {
+  content: "\eb44";
+}
+:global .ri-charging-pile-line:before {
+  content: "\eb45";
+}
+:global .ri-chat-1-fill:before {
+  content: "\eb46";
+}
+:global .ri-chat-1-line:before {
+  content: "\eb47";
+}
+:global .ri-chat-2-fill:before {
+  content: "\eb48";
+}
+:global .ri-chat-2-line:before {
+  content: "\eb49";
+}
+:global .ri-chat-3-fill:before {
+  content: "\eb4a";
+}
+:global .ri-chat-3-line:before {
+  content: "\eb4b";
+}
+:global .ri-chat-4-fill:before {
+  content: "\eb4c";
+}
+:global .ri-chat-4-line:before {
+  content: "\eb4d";
+}
+:global .ri-chat-check-fill:before {
+  content: "\eb4e";
+}
+:global .ri-chat-check-line:before {
+  content: "\eb4f";
+}
+:global .ri-chat-delete-fill:before {
+  content: "\eb50";
+}
+:global .ri-chat-delete-line:before {
+  content: "\eb51";
+}
+:global .ri-chat-download-fill:before {
+  content: "\eb52";
+}
+:global .ri-chat-download-line:before {
+  content: "\eb53";
+}
+:global .ri-chat-follow-up-fill:before {
+  content: "\eb54";
+}
+:global .ri-chat-follow-up-line:before {
+  content: "\eb55";
+}
+:global .ri-chat-forward-fill:before {
+  content: "\eb56";
+}
+:global .ri-chat-forward-line:before {
+  content: "\eb57";
+}
+:global .ri-chat-heart-fill:before {
+  content: "\eb58";
+}
+:global .ri-chat-heart-line:before {
+  content: "\eb59";
+}
+:global .ri-chat-history-fill:before {
+  content: "\eb5a";
+}
+:global .ri-chat-history-line:before {
+  content: "\eb5b";
+}
+:global .ri-chat-new-fill:before {
+  content: "\eb5c";
+}
+:global .ri-chat-new-line:before {
+  content: "\eb5d";
+}
+:global .ri-chat-off-fill:before {
+  content: "\eb5e";
+}
+:global .ri-chat-off-line:before {
+  content: "\eb5f";
+}
+:global .ri-chat-poll-fill:before {
+  content: "\eb60";
+}
+:global .ri-chat-poll-line:before {
+  content: "\eb61";
+}
+:global .ri-chat-private-fill:before {
+  content: "\eb62";
+}
+:global .ri-chat-private-line:before {
+  content: "\eb63";
+}
+:global .ri-chat-quote-fill:before {
+  content: "\eb64";
+}
+:global .ri-chat-quote-line:before {
+  content: "\eb65";
+}
+:global .ri-chat-settings-fill:before {
+  content: "\eb66";
+}
+:global .ri-chat-settings-line:before {
+  content: "\eb67";
+}
+:global .ri-chat-smile-2-fill:before {
+  content: "\eb68";
+}
+:global .ri-chat-smile-2-line:before {
+  content: "\eb69";
+}
+:global .ri-chat-smile-3-fill:before {
+  content: "\eb6a";
+}
+:global .ri-chat-smile-3-line:before {
+  content: "\eb6b";
+}
+:global .ri-chat-smile-fill:before {
+  content: "\eb6c";
+}
+:global .ri-chat-smile-line:before {
+  content: "\eb6d";
+}
+:global .ri-chat-upload-fill:before {
+  content: "\eb6e";
+}
+:global .ri-chat-upload-line:before {
+  content: "\eb6f";
+}
+:global .ri-chat-voice-fill:before {
+  content: "\eb70";
+}
+:global .ri-chat-voice-line:before {
+  content: "\eb71";
+}
+:global .ri-check-double-fill:before {
+  content: "\eb72";
+}
+:global .ri-check-double-line:before {
+  content: "\eb73";
+}
+:global .ri-check-fill:before {
+  content: "\eb74";
+}
+:global .ri-check-line:before {
+  content: "\eb75";
+}
+:global .ri-checkbox-blank-circle-fill:before {
+  content: "\eb76";
+}
+:global .ri-checkbox-blank-circle-line:before {
+  content: "\eb77";
+}
+:global .ri-checkbox-blank-fill:before {
+  content: "\eb78";
+}
+:global .ri-checkbox-blank-line:before {
+  content: "\eb79";
+}
+:global .ri-checkbox-circle-fill:before {
+  content: "\eb7a";
+}
+:global .ri-checkbox-circle-line:before {
+  content: "\eb7b";
+}
+:global .ri-checkbox-fill:before {
+  content: "\eb7c";
+}
+:global .ri-checkbox-indeterminate-fill:before {
+  content: "\eb7d";
+}
+:global .ri-checkbox-indeterminate-line:before {
+  content: "\eb7e";
+}
+:global .ri-checkbox-line:before {
+  content: "\eb7f";
+}
+:global .ri-checkbox-multiple-blank-fill:before {
+  content: "\eb80";
+}
+:global .ri-checkbox-multiple-blank-line:before {
+  content: "\eb81";
+}
+:global .ri-checkbox-multiple-fill:before {
+  content: "\eb82";
+}
+:global .ri-checkbox-multiple-line:before {
+  content: "\eb83";
+}
+:global .ri-china-railway-fill:before {
+  content: "\eb84";
+}
+:global .ri-china-railway-line:before {
+  content: "\eb85";
+}
+:global .ri-chrome-fill:before {
+  content: "\eb86";
+}
+:global .ri-chrome-line:before {
+  content: "\eb87";
+}
+:global .ri-clapperboard-fill:before {
+  content: "\eb88";
+}
+:global .ri-clapperboard-line:before {
+  content: "\eb89";
+}
+:global .ri-clipboard-fill:before {
+  content: "\eb8a";
+}
+:global .ri-clipboard-line:before {
+  content: "\eb8b";
+}
+:global .ri-clockwise-2-fill:before {
+  content: "\eb8c";
+}
+:global .ri-clockwise-2-line:before {
+  content: "\eb8d";
+}
+:global .ri-clockwise-fill:before {
+  content: "\eb8e";
+}
+:global .ri-clockwise-line:before {
+  content: "\eb8f";
+}
+:global .ri-close-circle-fill:before {
+  content: "\eb90";
+}
+:global .ri-close-circle-line:before {
+  content: "\eb91";
+}
+:global .ri-close-fill:before {
+  content: "\eb92";
+}
+:global .ri-close-line:before {
+  content: "\eb93";
+}
+:global .ri-cloud-fill:before {
+  content: "\eb94";
+}
+:global .ri-cloud-line:before {
+  content: "\eb95";
+}
+:global .ri-cloud-off-fill:before {
+  content: "\eb96";
+}
+:global .ri-cloud-off-line:before {
+  content: "\eb97";
+}
+:global .ri-cloud-windy-fill:before {
+  content: "\eb98";
+}
+:global .ri-cloud-windy-line:before {
+  content: "\eb99";
+}
+:global .ri-cloudy-2-fill:before {
+  content: "\eb9a";
+}
+:global .ri-cloudy-2-line:before {
+  content: "\eb9b";
+}
+:global .ri-cloudy-fill:before {
+  content: "\eb9c";
+}
+:global .ri-cloudy-line:before {
+  content: "\eb9d";
+}
+:global .ri-code-box-fill:before {
+  content: "\eb9e";
+}
+:global .ri-code-box-line:before {
+  content: "\eb9f";
+}
+:global .ri-code-fill:before {
+  content: "\eba0";
+}
+:global .ri-code-line:before {
+  content: "\eba1";
+}
+:global .ri-code-s-fill:before {
+  content: "\eba2";
+}
+:global .ri-code-s-line:before {
+  content: "\eba3";
+}
+:global .ri-code-s-slash-fill:before {
+  content: "\eba4";
+}
+:global .ri-code-s-slash-line:before {
+  content: "\eba5";
+}
+:global .ri-code-view:before {
+  content: "\eba6";
+}
+:global .ri-codepen-fill:before {
+  content: "\eba7";
+}
+:global .ri-codepen-line:before {
+  content: "\eba8";
+}
+:global .ri-coin-fill:before {
+  content: "\eba9";
+}
+:global .ri-coin-line:before {
+  content: "\ebaa";
+}
+:global .ri-coins-fill:before {
+  content: "\ebab";
+}
+:global .ri-coins-line:before {
+  content: "\ebac";
+}
+:global .ri-command-fill:before {
+  content: "\ebad";
+}
+:global .ri-command-line:before {
+  content: "\ebae";
+}
+:global .ri-community-fill:before {
+  content: "\ebaf";
+}
+:global .ri-community-line:before {
+  content: "\ebb0";
+}
+:global .ri-compass-2-fill:before {
+  content: "\ebb1";
+}
+:global .ri-compass-2-line:before {
+  content: "\ebb2";
+}
+:global .ri-compass-3-fill:before {
+  content: "\ebb3";
+}
+:global .ri-compass-3-line:before {
+  content: "\ebb4";
+}
+:global .ri-compass-4-fill:before {
+  content: "\ebb5";
+}
+:global .ri-compass-4-line:before {
+  content: "\ebb6";
+}
+:global .ri-compass-discover-fill:before {
+  content: "\ebb7";
+}
+:global .ri-compass-discover-line:before {
+  content: "\ebb8";
+}
+:global .ri-compass-fill:before {
+  content: "\ebb9";
+}
+:global .ri-compass-line:before {
+  content: "\ebba";
+}
+:global .ri-compasses-2-fill:before {
+  content: "\ebbb";
+}
+:global .ri-compasses-2-line:before {
+  content: "\ebbc";
+}
+:global .ri-compasses-fill:before {
+  content: "\ebbd";
+}
+:global .ri-compasses-line:before {
+  content: "\ebbe";
+}
+:global .ri-computer-fill:before {
+  content: "\ebbf";
+}
+:global .ri-computer-line:before {
+  content: "\ebc0";
+}
+:global .ri-contacts-book-2-fill:before {
+  content: "\ebc1";
+}
+:global .ri-contacts-book-2-line:before {
+  content: "\ebc2";
+}
+:global .ri-contacts-book-fill:before {
+  content: "\ebc3";
+}
+:global .ri-contacts-book-line:before {
+  content: "\ebc4";
+}
+:global .ri-contacts-book-upload-fill:before {
+  content: "\ebc5";
+}
+:global .ri-contacts-book-upload-line:before {
+  content: "\ebc6";
+}
+:global .ri-contacts-fill:before {
+  content: "\ebc7";
+}
+:global .ri-contacts-line:before {
+  content: "\ebc8";
+}
+:global .ri-contrast-2-fill:before {
+  content: "\ebc9";
+}
+:global .ri-contrast-2-line:before {
+  content: "\ebca";
+}
+:global .ri-contrast-drop-2-fill:before {
+  content: "\ebcb";
+}
+:global .ri-contrast-drop-2-line:before {
+  content: "\ebcc";
+}
+:global .ri-contrast-drop-fill:before {
+  content: "\ebcd";
+}
+:global .ri-contrast-drop-line:before {
+  content: "\ebce";
+}
+:global .ri-contrast-fill:before {
+  content: "\ebcf";
+}
+:global .ri-contrast-line:before {
+  content: "\ebd0";
+}
+:global .ri-copper-coin-fill:before {
+  content: "\ebd1";
+}
+:global .ri-copper-coin-line:before {
+  content: "\ebd2";
+}
+:global .ri-copper-diamond-fill:before {
+  content: "\ebd3";
+}
+:global .ri-copper-diamond-line:before {
+  content: "\ebd4";
+}
+:global .ri-copyright-fill:before {
+  content: "\ebd5";
+}
+:global .ri-copyright-line:before {
+  content: "\ebd6";
+}
+:global .ri-coreos-fill:before {
+  content: "\ebd7";
+}
+:global .ri-coreos-line:before {
+  content: "\ebd8";
+}
+:global .ri-coupon-2-fill:before {
+  content: "\ebd9";
+}
+:global .ri-coupon-2-line:before {
+  content: "\ebda";
+}
+:global .ri-coupon-3-fill:before {
+  content: "\ebdb";
+}
+:global .ri-coupon-3-line:before {
+  content: "\ebdc";
+}
+:global .ri-coupon-4-fill:before {
+  content: "\ebdd";
+}
+:global .ri-coupon-4-line:before {
+  content: "\ebde";
+}
+:global .ri-coupon-5-fill:before {
+  content: "\ebdf";
+}
+:global .ri-coupon-5-line:before {
+  content: "\ebe0";
+}
+:global .ri-coupon-fill:before {
+  content: "\ebe1";
+}
+:global .ri-coupon-line:before {
+  content: "\ebe2";
+}
+:global .ri-cpu-fill:before {
+  content: "\ebe3";
+}
+:global .ri-cpu-line:before {
+  content: "\ebe4";
+}
+:global .ri-creative-commons-by-fill:before {
+  content: "\ebe5";
+}
+:global .ri-creative-commons-by-line:before {
+  content: "\ebe6";
+}
+:global .ri-creative-commons-fill:before {
+  content: "\ebe7";
+}
+:global .ri-creative-commons-line:before {
+  content: "\ebe8";
+}
+:global .ri-creative-commons-nc-fill:before {
+  content: "\ebe9";
+}
+:global .ri-creative-commons-nc-line:before {
+  content: "\ebea";
+}
+:global .ri-creative-commons-nd-fill:before {
+  content: "\ebeb";
+}
+:global .ri-creative-commons-nd-line:before {
+  content: "\ebec";
+}
+:global .ri-creative-commons-sa-fill:before {
+  content: "\ebed";
+}
+:global .ri-creative-commons-sa-line:before {
+  content: "\ebee";
+}
+:global .ri-creative-commons-zero-fill:before {
+  content: "\ebef";
+}
+:global .ri-creative-commons-zero-line:before {
+  content: "\ebf0";
+}
+:global .ri-criminal-fill:before {
+  content: "\ebf1";
+}
+:global .ri-criminal-line:before {
+  content: "\ebf2";
+}
+:global .ri-crop-2-fill:before {
+  content: "\ebf3";
+}
+:global .ri-crop-2-line:before {
+  content: "\ebf4";
+}
+:global .ri-crop-fill:before {
+  content: "\ebf5";
+}
+:global .ri-crop-line:before {
+  content: "\ebf6";
+}
+:global .ri-css3-fill:before {
+  content: "\ebf7";
+}
+:global .ri-css3-line:before {
+  content: "\ebf8";
+}
+:global .ri-cup-fill:before {
+  content: "\ebf9";
+}
+:global .ri-cup-line:before {
+  content: "\ebfa";
+}
+:global .ri-currency-fill:before {
+  content: "\ebfb";
+}
+:global .ri-currency-line:before {
+  content: "\ebfc";
+}
+:global .ri-cursor-fill:before {
+  content: "\ebfd";
+}
+:global .ri-cursor-line:before {
+  content: "\ebfe";
+}
+:global .ri-customer-service-2-fill:before {
+  content: "\ebff";
+}
+:global .ri-customer-service-2-line:before {
+  content: "\ec00";
+}
+:global .ri-customer-service-fill:before {
+  content: "\ec01";
+}
+:global .ri-customer-service-line:before {
+  content: "\ec02";
+}
+:global .ri-dashboard-fill:before {
+  content: "\ec03";
+}
+:global .ri-dashboard-line:before {
+  content: "\ec04";
+}
+:global .ri-database-2-fill:before {
+  content: "\ec05";
+}
+:global .ri-database-2-line:before {
+  content: "\ec06";
+}
+:global .ri-database-fill:before {
+  content: "\ec07";
+}
+:global .ri-database-line:before {
+  content: "\ec08";
+}
+:global .ri-delete-back-2-fill:before {
+  content: "\ec09";
+}
+:global .ri-delete-back-2-line:before {
+  content: "\ec0a";
+}
+:global .ri-delete-back-fill:before {
+  content: "\ec0b";
+}
+:global .ri-delete-back-line:before {
+  content: "\ec0c";
+}
+:global .ri-delete-bin-2-fill:before {
+  content: "\ec0d";
+}
+:global .ri-delete-bin-2-line:before {
+  content: "\ec0e";
+}
+:global .ri-delete-bin-3-fill:before {
+  content: "\ec0f";
+}
+:global .ri-delete-bin-3-line:before {
+  content: "\ec10";
+}
+:global .ri-delete-bin-4-fill:before {
+  content: "\ec11";
+}
+:global .ri-delete-bin-4-line:before {
+  content: "\ec12";
+}
+:global .ri-delete-bin-5-fill:before {
+  content: "\ec13";
+}
+:global .ri-delete-bin-5-line:before {
+  content: "\ec14";
+}
+:global .ri-delete-bin-6-fill:before {
+  content: "\ec15";
+}
+:global .ri-delete-bin-6-line:before {
+  content: "\ec16";
+}
+:global .ri-delete-bin-7-fill:before {
+  content: "\ec17";
+}
+:global .ri-delete-bin-7-line:before {
+  content: "\ec18";
+}
+:global .ri-delete-bin-fill:before {
+  content: "\ec19";
+}
+:global .ri-delete-bin-line:before {
+  content: "\ec1a";
+}
+:global .ri-device-fill:before {
+  content: "\ec1b";
+}
+:global .ri-device-line:before {
+  content: "\ec1c";
+}
+:global .ri-device-recover-fill:before {
+  content: "\ec1d";
+}
+:global .ri-device-recover-line:before {
+  content: "\ec1e";
+}
+:global .ri-dingding-fill:before {
+  content: "\ec1f";
+}
+:global .ri-dingding-line:before {
+  content: "\ec20";
+}
+:global .ri-direction-fill:before {
+  content: "\ec21";
+}
+:global .ri-direction-line:before {
+  content: "\ec22";
+}
+:global .ri-disc-fill:before {
+  content: "\ec23";
+}
+:global .ri-disc-line:before {
+  content: "\ec24";
+}
+:global .ri-discord-fill:before {
+  content: "\ec25";
+}
+:global .ri-discord-line:before {
+  content: "\ec26";
+}
+:global .ri-discuss-fill:before {
+  content: "\ec27";
+}
+:global .ri-discuss-line:before {
+  content: "\ec28";
+}
+:global .ri-disqus-fill:before {
+  content: "\ec29";
+}
+:global .ri-disqus-line:before {
+  content: "\ec2a";
+}
+:global .ri-divide-fill:before {
+  content: "\ec2b";
+}
+:global .ri-divide-line:before {
+  content: "\ec2c";
+}
+:global .ri-donut-chart-fill:before {
+  content: "\ec2d";
+}
+:global .ri-donut-chart-line:before {
+  content: "\ec2e";
+}
+:global .ri-door-lock-box-fill:before {
+  content: "\ec2f";
+}
+:global .ri-door-lock-box-line:before {
+  content: "\ec30";
+}
+:global .ri-door-lock-fill:before {
+  content: "\ec31";
+}
+:global .ri-door-lock-line:before {
+  content: "\ec32";
+}
+:global .ri-douban-fill:before {
+  content: "\ec33";
+}
+:global .ri-douban-line:before {
+  content: "\ec34";
+}
+:global .ri-double-quotes-l:before {
+  content: "\ec35";
+}
+:global .ri-double-quotes-r:before {
+  content: "\ec36";
+}
+:global .ri-download-2-fill:before {
+  content: "\ec37";
+}
+:global .ri-download-2-line:before {
+  content: "\ec38";
+}
+:global .ri-download-cloud-2-fill:before {
+  content: "\ec39";
+}
+:global .ri-download-cloud-2-line:before {
+  content: "\ec3a";
+}
+:global .ri-download-cloud-fill:before {
+  content: "\ec3b";
+}
+:global .ri-download-cloud-line:before {
+  content: "\ec3c";
+}
+:global .ri-download-fill:before {
+  content: "\ec3d";
+}
+:global .ri-download-line:before {
+  content: "\ec3e";
+}
+:global .ri-drag-drop-fill:before {
+  content: "\ec3f";
+}
+:global .ri-drag-drop-line:before {
+  content: "\ec40";
+}
+:global .ri-drag-move-2-fill:before {
+  content: "\ec41";
+}
+:global .ri-drag-move-2-line:before {
+  content: "\ec42";
+}
+:global .ri-drag-move-fill:before {
+  content: "\ec43";
+}
+:global .ri-drag-move-line:before {
+  content: "\ec44";
+}
+:global .ri-dribbble-fill:before {
+  content: "\ec45";
+}
+:global .ri-dribbble-line:before {
+  content: "\ec46";
+}
+:global .ri-drive-fill:before {
+  content: "\ec47";
+}
+:global .ri-drive-line:before {
+  content: "\ec48";
+}
+:global .ri-drizzle-fill:before {
+  content: "\ec49";
+}
+:global .ri-drizzle-line:before {
+  content: "\ec4a";
+}
+:global .ri-drop-fill:before {
+  content: "\ec4b";
+}
+:global .ri-drop-line:before {
+  content: "\ec4c";
+}
+:global .ri-dropbox-fill:before {
+  content: "\ec4d";
+}
+:global .ri-dropbox-line:before {
+  content: "\ec4e";
+}
+:global .ri-dual-sim-1-fill:before {
+  content: "\ec4f";
+}
+:global .ri-dual-sim-1-line:before {
+  content: "\ec50";
+}
+:global .ri-dual-sim-2-fill:before {
+  content: "\ec51";
+}
+:global .ri-dual-sim-2-line:before {
+  content: "\ec52";
+}
+:global .ri-dv-fill:before {
+  content: "\ec53";
+}
+:global .ri-dv-line:before {
+  content: "\ec54";
+}
+:global .ri-dvd-fill:before {
+  content: "\ec55";
+}
+:global .ri-dvd-line:before {
+  content: "\ec56";
+}
+:global .ri-e-bike-2-fill:before {
+  content: "\ec57";
+}
+:global .ri-e-bike-2-line:before {
+  content: "\ec58";
+}
+:global .ri-e-bike-fill:before {
+  content: "\ec59";
+}
+:global .ri-e-bike-line:before {
+  content: "\ec5a";
+}
+:global .ri-earth-fill:before {
+  content: "\ec5b";
+}
+:global .ri-earth-line:before {
+  content: "\ec5c";
+}
+:global .ri-earthquake-fill:before {
+  content: "\ec5d";
+}
+:global .ri-earthquake-line:before {
+  content: "\ec5e";
+}
+:global .ri-edge-fill:before {
+  content: "\ec5f";
+}
+:global .ri-edge-line:before {
+  content: "\ec60";
+}
+:global .ri-edit-2-fill:before {
+  content: "\ec61";
+}
+:global .ri-edit-2-line:before {
+  content: "\ec62";
+}
+:global .ri-edit-box-fill:before {
+  content: "\ec63";
+}
+:global .ri-edit-box-line:before {
+  content: "\ec64";
+}
+:global .ri-edit-circle-fill:before {
+  content: "\ec65";
+}
+:global .ri-edit-circle-line:before {
+  content: "\ec66";
+}
+:global .ri-edit-fill:before {
+  content: "\ec67";
+}
+:global .ri-edit-line:before {
+  content: "\ec68";
+}
+:global .ri-eject-fill:before {
+  content: "\ec69";
+}
+:global .ri-eject-line:before {
+  content: "\ec6a";
+}
+:global .ri-emotion-2-fill:before {
+  content: "\ec6b";
+}
+:global .ri-emotion-2-line:before {
+  content: "\ec6c";
+}
+:global .ri-emotion-fill:before {
+  content: "\ec6d";
+}
+:global .ri-emotion-happy-fill:before {
+  content: "\ec6e";
+}
+:global .ri-emotion-happy-line:before {
+  content: "\ec6f";
+}
+:global .ri-emotion-laugh-fill:before {
+  content: "\ec70";
+}
+:global .ri-emotion-laugh-line:before {
+  content: "\ec71";
+}
+:global .ri-emotion-line:before {
+  content: "\ec72";
+}
+:global .ri-emotion-normal-fill:before {
+  content: "\ec73";
+}
+:global .ri-emotion-normal-line:before {
+  content: "\ec74";
+}
+:global .ri-emotion-sad-fill:before {
+  content: "\ec75";
+}
+:global .ri-emotion-sad-line:before {
+  content: "\ec76";
+}
+:global .ri-emotion-unhappy-fill:before {
+  content: "\ec77";
+}
+:global .ri-emotion-unhappy-line:before {
+  content: "\ec78";
+}
+:global .ri-emphasis-cn:before {
+  content: "\ec79";
+}
+:global .ri-emphasis:before {
+  content: "\ec7a";
+}
+:global .ri-english-input:before {
+  content: "\ec7b";
+}
+:global .ri-equalizer-fill:before {
+  content: "\ec7c";
+}
+:global .ri-equalizer-line:before {
+  content: "\ec7d";
+}
+:global .ri-eraser-fill:before {
+  content: "\ec7e";
+}
+:global .ri-eraser-line:before {
+  content: "\ec7f";
+}
+:global .ri-error-warning-fill:before {
+  content: "\ec80";
+}
+:global .ri-error-warning-line:before {
+  content: "\ec81";
+}
+:global .ri-evernote-fill:before {
+  content: "\ec82";
+}
+:global .ri-evernote-line:before {
+  content: "\ec83";
+}
+:global .ri-exchange-box-fill:before {
+  content: "\ec84";
+}
+:global .ri-exchange-box-line:before {
+  content: "\ec85";
+}
+:global .ri-exchange-cny-fill:before {
+  content: "\ec86";
+}
+:global .ri-exchange-cny-line:before {
+  content: "\ec87";
+}
+:global .ri-exchange-dollar-fill:before {
+  content: "\ec88";
+}
+:global .ri-exchange-dollar-line:before {
+  content: "\ec89";
+}
+:global .ri-exchange-fill:before {
+  content: "\ec8a";
+}
+:global .ri-exchange-funds-fill:before {
+  content: "\ec8b";
+}
+:global .ri-exchange-funds-line:before {
+  content: "\ec8c";
+}
+:global .ri-exchange-line:before {
+  content: "\ec8d";
+}
+:global .ri-external-link-fill:before {
+  content: "\ec8e";
+}
+:global .ri-external-link-line:before {
+  content: "\ec8f";
+}
+:global .ri-eye-2-fill:before {
+  content: "\ec90";
+}
+:global .ri-eye-2-line:before {
+  content: "\ec91";
+}
+:global .ri-eye-close-fill:before {
+  content: "\ec92";
+}
+:global .ri-eye-close-line:before {
+  content: "\ec93";
+}
+:global .ri-eye-fill:before {
+  content: "\ec94";
+}
+:global .ri-eye-line:before {
+  content: "\ec95";
+}
+:global .ri-eye-off-fill:before {
+  content: "\ec96";
+}
+:global .ri-eye-off-line:before {
+  content: "\ec97";
+}
+:global .ri-facebook-box-fill:before {
+  content: "\ec98";
+}
+:global .ri-facebook-box-line:before {
+  content: "\ec99";
+}
+:global .ri-facebook-circle-fill:before {
+  content: "\ec9a";
+}
+:global .ri-facebook-circle-line:before {
+  content: "\ec9b";
+}
+:global .ri-facebook-fill:before {
+  content: "\ec9c";
+}
+:global .ri-facebook-line:before {
+  content: "\ec9d";
+}
+:global .ri-fahrenheit-fill:before {
+  content: "\ec9e";
+}
+:global .ri-fahrenheit-line:before {
+  content: "\ec9f";
+}
+:global .ri-feedback-fill:before {
+  content: "\eca0";
+}
+:global .ri-feedback-line:before {
+  content: "\eca1";
+}
+:global .ri-file-2-fill:before {
+  content: "\eca2";
+}
+:global .ri-file-2-line:before {
+  content: "\eca3";
+}
+:global .ri-file-3-fill:before {
+  content: "\eca4";
+}
+:global .ri-file-3-line:before {
+  content: "\eca5";
+}
+:global .ri-file-4-fill:before {
+  content: "\eca6";
+}
+:global .ri-file-4-line:before {
+  content: "\eca7";
+}
+:global .ri-file-add-fill:before {
+  content: "\eca8";
+}
+:global .ri-file-add-line:before {
+  content: "\eca9";
+}
+:global .ri-file-chart-2-fill:before {
+  content: "\ecaa";
+}
+:global .ri-file-chart-2-line:before {
+  content: "\ecab";
+}
+:global .ri-file-chart-fill:before {
+  content: "\ecac";
+}
+:global .ri-file-chart-line:before {
+  content: "\ecad";
+}
+:global .ri-file-cloud-fill:before {
+  content: "\ecae";
+}
+:global .ri-file-cloud-line:before {
+  content: "\ecaf";
+}
+:global .ri-file-code-fill:before {
+  content: "\ecb0";
+}
+:global .ri-file-code-line:before {
+  content: "\ecb1";
+}
+:global .ri-file-copy-2-fill:before {
+  content: "\ecb2";
+}
+:global .ri-file-copy-2-line:before {
+  content: "\ecb3";
+}
+:global .ri-file-copy-fill:before {
+  content: "\ecb4";
+}
+:global .ri-file-copy-line:before {
+  content: "\ecb5";
+}
+:global .ri-file-damage-fill:before {
+  content: "\ecb6";
+}
+:global .ri-file-damage-line:before {
+  content: "\ecb7";
+}
+:global .ri-file-download-fill:before {
+  content: "\ecb8";
+}
+:global .ri-file-download-line:before {
+  content: "\ecb9";
+}
+:global .ri-file-edit-fill:before {
+  content: "\ecba";
+}
+:global .ri-file-edit-line:before {
+  content: "\ecbb";
+}
+:global .ri-file-excel-2-fill:before {
+  content: "\ecbc";
+}
+:global .ri-file-excel-2-line:before {
+  content: "\ecbd";
+}
+:global .ri-file-excel-fill:before {
+  content: "\ecbe";
+}
+:global .ri-file-excel-line:before {
+  content: "\ecbf";
+}
+:global .ri-file-fill:before {
+  content: "\ecc0";
+}
+:global .ri-file-forbid-fill:before {
+  content: "\ecc1";
+}
+:global .ri-file-forbid-line:before {
+  content: "\ecc2";
+}
+:global .ri-file-gif-fill:before {
+  content: "\ecc3";
+}
+:global .ri-file-gif-line:before {
+  content: "\ecc4";
+}
+:global .ri-file-history-fill:before {
+  content: "\ecc5";
+}
+:global .ri-file-history-line:before {
+  content: "\ecc6";
+}
+:global .ri-file-hwp-fill:before {
+  content: "\ecc7";
+}
+:global .ri-file-hwp-line:before {
+  content: "\ecc8";
+}
+:global .ri-file-info-fill:before {
+  content: "\ecc9";
+}
+:global .ri-file-info-line:before {
+  content: "\ecca";
+}
+:global .ri-file-line:before {
+  content: "\eccb";
+}
+:global .ri-file-list-2-fill:before {
+  content: "\eccc";
+}
+:global .ri-file-list-2-line:before {
+  content: "\eccd";
+}
+:global .ri-file-list-3-fill:before {
+  content: "\ecce";
+}
+:global .ri-file-list-3-line:before {
+  content: "\eccf";
+}
+:global .ri-file-list-fill:before {
+  content: "\ecd0";
+}
+:global .ri-file-list-line:before {
+  content: "\ecd1";
+}
+:global .ri-file-lock-fill:before {
+  content: "\ecd2";
+}
+:global .ri-file-lock-line:before {
+  content: "\ecd3";
+}
+:global .ri-file-mark-fill:before {
+  content: "\ecd4";
+}
+:global .ri-file-mark-line:before {
+  content: "\ecd5";
+}
+:global .ri-file-music-fill:before {
+  content: "\ecd6";
+}
+:global .ri-file-music-line:before {
+  content: "\ecd7";
+}
+:global .ri-file-paper-2-fill:before {
+  content: "\ecd8";
+}
+:global .ri-file-paper-2-line:before {
+  content: "\ecd9";
+}
+:global .ri-file-paper-fill:before {
+  content: "\ecda";
+}
+:global .ri-file-paper-line:before {
+  content: "\ecdb";
+}
+:global .ri-file-pdf-fill:before {
+  content: "\ecdc";
+}
+:global .ri-file-pdf-line:before {
+  content: "\ecdd";
+}
+:global .ri-file-ppt-2-fill:before {
+  content: "\ecde";
+}
+:global .ri-file-ppt-2-line:before {
+  content: "\ecdf";
+}
+:global .ri-file-ppt-fill:before {
+  content: "\ece0";
+}
+:global .ri-file-ppt-line:before {
+  content: "\ece1";
+}
+:global .ri-file-reduce-fill:before {
+  content: "\ece2";
+}
+:global .ri-file-reduce-line:before {
+  content: "\ece3";
+}
+:global .ri-file-search-fill:before {
+  content: "\ece4";
+}
+:global .ri-file-search-line:before {
+  content: "\ece5";
+}
+:global .ri-file-settings-fill:before {
+  content: "\ece6";
+}
+:global .ri-file-settings-line:before {
+  content: "\ece7";
+}
+:global .ri-file-shield-2-fill:before {
+  content: "\ece8";
+}
+:global .ri-file-shield-2-line:before {
+  content: "\ece9";
+}
+:global .ri-file-shield-fill:before {
+  content: "\ecea";
+}
+:global .ri-file-shield-line:before {
+  content: "\eceb";
+}
+:global .ri-file-shred-fill:before {
+  content: "\ecec";
+}
+:global .ri-file-shred-line:before {
+  content: "\eced";
+}
+:global .ri-file-text-fill:before {
+  content: "\ecee";
+}
+:global .ri-file-text-line:before {
+  content: "\ecef";
+}
+:global .ri-file-transfer-fill:before {
+  content: "\ecf0";
+}
+:global .ri-file-transfer-line:before {
+  content: "\ecf1";
+}
+:global .ri-file-unknow-fill:before {
+  content: "\ecf2";
+}
+:global .ri-file-unknow-line:before {
+  content: "\ecf3";
+}
+:global .ri-file-upload-fill:before {
+  content: "\ecf4";
+}
+:global .ri-file-upload-line:before {
+  content: "\ecf5";
+}
+:global .ri-file-user-fill:before {
+  content: "\ecf6";
+}
+:global .ri-file-user-line:before {
+  content: "\ecf7";
+}
+:global .ri-file-warning-fill:before {
+  content: "\ecf8";
+}
+:global .ri-file-warning-line:before {
+  content: "\ecf9";
+}
+:global .ri-file-word-2-fill:before {
+  content: "\ecfa";
+}
+:global .ri-file-word-2-line:before {
+  content: "\ecfb";
+}
+:global .ri-file-word-fill:before {
+  content: "\ecfc";
+}
+:global .ri-file-word-line:before {
+  content: "\ecfd";
+}
+:global .ri-file-zip-fill:before {
+  content: "\ecfe";
+}
+:global .ri-file-zip-line:before {
+  content: "\ecff";
+}
+:global .ri-film-fill:before {
+  content: "\ed00";
+}
+:global .ri-film-line:before {
+  content: "\ed01";
+}
+:global .ri-filter-2-fill:before {
+  content: "\ed02";
+}
+:global .ri-filter-2-line:before {
+  content: "\ed03";
+}
+:global .ri-filter-3-fill:before {
+  content: "\ed04";
+}
+:global .ri-filter-3-line:before {
+  content: "\ed05";
+}
+:global .ri-filter-fill:before {
+  content: "\ed06";
+}
+:global .ri-filter-line:before {
+  content: "\ed07";
+}
+:global .ri-find-replace-fill:before {
+  content: "\ed08";
+}
+:global .ri-find-replace-line:before {
+  content: "\ed09";
+}
+:global .ri-fingerprint-2-fill:before {
+  content: "\ed0a";
+}
+:global .ri-fingerprint-2-line:before {
+  content: "\ed0b";
+}
+:global .ri-fingerprint-fill:before {
+  content: "\ed0c";
+}
+:global .ri-fingerprint-line:before {
+  content: "\ed0d";
+}
+:global .ri-fire-fill:before {
+  content: "\ed0e";
+}
+:global .ri-fire-line:before {
+  content: "\ed0f";
+}
+:global .ri-firefox-fill:before {
+  content: "\ed10";
+}
+:global .ri-firefox-line:before {
+  content: "\ed11";
+}
+:global .ri-flag-2-fill:before {
+  content: "\ed12";
+}
+:global .ri-flag-2-line:before {
+  content: "\ed13";
+}
+:global .ri-flag-fill:before {
+  content: "\ed14";
+}
+:global .ri-flag-line:before {
+  content: "\ed15";
+}
+:global .ri-flashlight-fill:before {
+  content: "\ed16";
+}
+:global .ri-flashlight-line:before {
+  content: "\ed17";
+}
+:global .ri-flask-fill:before {
+  content: "\ed18";
+}
+:global .ri-flask-line:before {
+  content: "\ed19";
+}
+:global .ri-flight-land-fill:before {
+  content: "\ed1a";
+}
+:global .ri-flight-land-line:before {
+  content: "\ed1b";
+}
+:global .ri-flight-takeoff-fill:before {
+  content: "\ed1c";
+}
+:global .ri-flight-takeoff-line:before {
+  content: "\ed1d";
+}
+:global .ri-flood-fill:before {
+  content: "\ed1e";
+}
+:global .ri-flood-line:before {
+  content: "\ed1f";
+}
+:global .ri-flutter-fill:before {
+  content: "\ed20";
+}
+:global .ri-flutter-line:before {
+  content: "\ed21";
+}
+:global .ri-focus-2-fill:before {
+  content: "\ed22";
+}
+:global .ri-focus-2-line:before {
+  content: "\ed23";
+}
+:global .ri-focus-3-fill:before {
+  content: "\ed24";
+}
+:global .ri-focus-3-line:before {
+  content: "\ed25";
+}
+:global .ri-focus-fill:before {
+  content: "\ed26";
+}
+:global .ri-focus-line:before {
+  content: "\ed27";
+}
+:global .ri-foggy-fill:before {
+  content: "\ed28";
+}
+:global .ri-foggy-line:before {
+  content: "\ed29";
+}
+:global .ri-folder-2-fill:before {
+  content: "\ed2a";
+}
+:global .ri-folder-2-line:before {
+  content: "\ed2b";
+}
+:global .ri-folder-3-fill:before {
+  content: "\ed2c";
+}
+:global .ri-folder-3-line:before {
+  content: "\ed2d";
+}
+:global .ri-folder-4-fill:before {
+  content: "\ed2e";
+}
+:global .ri-folder-4-line:before {
+  content: "\ed2f";
+}
+:global .ri-folder-5-fill:before {
+  content: "\ed30";
+}
+:global .ri-folder-5-line:before {
+  content: "\ed31";
+}
+:global .ri-folder-add-fill:before {
+  content: "\ed32";
+}
+:global .ri-folder-add-line:before {
+  content: "\ed33";
+}
+:global .ri-folder-chart-2-fill:before {
+  content: "\ed34";
+}
+:global .ri-folder-chart-2-line:before {
+  content: "\ed35";
+}
+:global .ri-folder-chart-fill:before {
+  content: "\ed36";
+}
+:global .ri-folder-chart-line:before {
+  content: "\ed37";
+}
+:global .ri-folder-download-fill:before {
+  content: "\ed38";
+}
+:global .ri-folder-download-line:before {
+  content: "\ed39";
+}
+:global .ri-folder-fill:before {
+  content: "\ed3a";
+}
+:global .ri-folder-forbid-fill:before {
+  content: "\ed3b";
+}
+:global .ri-folder-forbid-line:before {
+  content: "\ed3c";
+}
+:global .ri-folder-history-fill:before {
+  content: "\ed3d";
+}
+:global .ri-folder-history-line:before {
+  content: "\ed3e";
+}
+:global .ri-folder-info-fill:before {
+  content: "\ed3f";
+}
+:global .ri-folder-info-line:before {
+  content: "\ed40";
+}
+:global .ri-folder-keyhole-fill:before {
+  content: "\ed41";
+}
+:global .ri-folder-keyhole-line:before {
+  content: "\ed42";
+}
+:global .ri-folder-line:before {
+  content: "\ed43";
+}
+:global .ri-folder-lock-fill:before {
+  content: "\ed44";
+}
+:global .ri-folder-lock-line:before {
+  content: "\ed45";
+}
+:global .ri-folder-music-fill:before {
+  content: "\ed46";
+}
+:global .ri-folder-music-line:before {
+  content: "\ed47";
+}
+:global .ri-folder-open-fill:before {
+  content: "\ed48";
+}
+:global .ri-folder-open-line:before {
+  content: "\ed49";
+}
+:global .ri-folder-received-fill:before {
+  content: "\ed4a";
+}
+:global .ri-folder-received-line:before {
+  content: "\ed4b";
+}
+:global .ri-folder-reduce-fill:before {
+  content: "\ed4c";
+}
+:global .ri-folder-reduce-line:before {
+  content: "\ed4d";
+}
+:global .ri-folder-settings-fill:before {
+  content: "\ed4e";
+}
+:global .ri-folder-settings-line:before {
+  content: "\ed4f";
+}
+:global .ri-folder-shared-fill:before {
+  content: "\ed50";
+}
+:global .ri-folder-shared-line:before {
+  content: "\ed51";
+}
+:global .ri-folder-shield-2-fill:before {
+  content: "\ed52";
+}
+:global .ri-folder-shield-2-line:before {
+  content: "\ed53";
+}
+:global .ri-folder-shield-fill:before {
+  content: "\ed54";
+}
+:global .ri-folder-shield-line:before {
+  content: "\ed55";
+}
+:global .ri-folder-transfer-fill:before {
+  content: "\ed56";
+}
+:global .ri-folder-transfer-line:before {
+  content: "\ed57";
+}
+:global .ri-folder-unknow-fill:before {
+  content: "\ed58";
+}
+:global .ri-folder-unknow-line:before {
+  content: "\ed59";
+}
+:global .ri-folder-upload-fill:before {
+  content: "\ed5a";
+}
+:global .ri-folder-upload-line:before {
+  content: "\ed5b";
+}
+:global .ri-folder-user-fill:before {
+  content: "\ed5c";
+}
+:global .ri-folder-user-line:before {
+  content: "\ed5d";
+}
+:global .ri-folder-warning-fill:before {
+  content: "\ed5e";
+}
+:global .ri-folder-warning-line:before {
+  content: "\ed5f";
+}
+:global .ri-folder-zip-fill:before {
+  content: "\ed60";
+}
+:global .ri-folder-zip-line:before {
+  content: "\ed61";
+}
+:global .ri-folders-fill:before {
+  content: "\ed62";
+}
+:global .ri-folders-line:before {
+  content: "\ed63";
+}
+:global .ri-font-color:before {
+  content: "\ed64";
+}
+:global .ri-font-size-2:before {
+  content: "\ed65";
+}
+:global .ri-font-size:before {
+  content: "\ed66";
+}
+:global .ri-football-fill:before {
+  content: "\ed67";
+}
+:global .ri-football-line:before {
+  content: "\ed68";
+}
+:global .ri-footprint-fill:before {
+  content: "\ed69";
+}
+:global .ri-footprint-line:before {
+  content: "\ed6a";
+}
+:global .ri-forbid-2-fill:before {
+  content: "\ed6b";
+}
+:global .ri-forbid-2-line:before {
+  content: "\ed6c";
+}
+:global .ri-forbid-fill:before {
+  content: "\ed6d";
+}
+:global .ri-forbid-line:before {
+  content: "\ed6e";
+}
+:global .ri-format-clear:before {
+  content: "\ed6f";
+}
+:global .ri-fridge-fill:before {
+  content: "\ed70";
+}
+:global .ri-fridge-line:before {
+  content: "\ed71";
+}
+:global .ri-fullscreen-exit-fill:before {
+  content: "\ed72";
+}
+:global .ri-fullscreen-exit-line:before {
+  content: "\ed73";
+}
+:global .ri-fullscreen-fill:before {
+  content: "\ed74";
+}
+:global .ri-fullscreen-line:before {
+  content: "\ed75";
+}
+:global .ri-function-fill:before {
+  content: "\ed76";
+}
+:global .ri-function-line:before {
+  content: "\ed77";
+}
+:global .ri-functions:before {
+  content: "\ed78";
+}
+:global .ri-funds-box-fill:before {
+  content: "\ed79";
+}
+:global .ri-funds-box-line:before {
+  content: "\ed7a";
+}
+:global .ri-funds-fill:before {
+  content: "\ed7b";
+}
+:global .ri-funds-line:before {
+  content: "\ed7c";
+}
+:global .ri-gallery-fill:before {
+  content: "\ed7d";
+}
+:global .ri-gallery-line:before {
+  content: "\ed7e";
+}
+:global .ri-gallery-upload-fill:before {
+  content: "\ed7f";
+}
+:global .ri-gallery-upload-line:before {
+  content: "\ed80";
+}
+:global .ri-game-fill:before {
+  content: "\ed81";
+}
+:global .ri-game-line:before {
+  content: "\ed82";
+}
+:global .ri-gamepad-fill:before {
+  content: "\ed83";
+}
+:global .ri-gamepad-line:before {
+  content: "\ed84";
+}
+:global .ri-gas-station-fill:before {
+  content: "\ed85";
+}
+:global .ri-gas-station-line:before {
+  content: "\ed86";
+}
+:global .ri-gatsby-fill:before {
+  content: "\ed87";
+}
+:global .ri-gatsby-line:before {
+  content: "\ed88";
+}
+:global .ri-genderless-fill:before {
+  content: "\ed89";
+}
+:global .ri-genderless-line:before {
+  content: "\ed8a";
+}
+:global .ri-ghost-2-fill:before {
+  content: "\ed8b";
+}
+:global .ri-ghost-2-line:before {
+  content: "\ed8c";
+}
+:global .ri-ghost-fill:before {
+  content: "\ed8d";
+}
+:global .ri-ghost-line:before {
+  content: "\ed8e";
+}
+:global .ri-ghost-smile-fill:before {
+  content: "\ed8f";
+}
+:global .ri-ghost-smile-line:before {
+  content: "\ed90";
+}
+:global .ri-gift-2-fill:before {
+  content: "\ed91";
+}
+:global .ri-gift-2-line:before {
+  content: "\ed92";
+}
+:global .ri-gift-fill:before {
+  content: "\ed93";
+}
+:global .ri-gift-line:before {
+  content: "\ed94";
+}
+:global .ri-git-branch-fill:before {
+  content: "\ed95";
+}
+:global .ri-git-branch-line:before {
+  content: "\ed96";
+}
+:global .ri-git-commit-fill:before {
+  content: "\ed97";
+}
+:global .ri-git-commit-line:before {
+  content: "\ed98";
+}
+:global .ri-git-merge-fill:before {
+  content: "\ed99";
+}
+:global .ri-git-merge-line:before {
+  content: "\ed9a";
+}
+:global .ri-git-pull-request-fill:before {
+  content: "\ed9b";
+}
+:global .ri-git-pull-request-line:before {
+  content: "\ed9c";
+}
+:global .ri-git-repository-commits-fill:before {
+  content: "\ed9d";
+}
+:global .ri-git-repository-commits-line:before {
+  content: "\ed9e";
+}
+:global .ri-git-repository-fill:before {
+  content: "\ed9f";
+}
+:global .ri-git-repository-line:before {
+  content: "\eda0";
+}
+:global .ri-git-repository-private-fill:before {
+  content: "\eda1";
+}
+:global .ri-git-repository-private-line:before {
+  content: "\eda2";
+}
+:global .ri-github-fill:before {
+  content: "\eda3";
+}
+:global .ri-github-line:before {
+  content: "\eda4";
+}
+:global .ri-gitlab-fill:before {
+  content: "\eda5";
+}
+:global .ri-gitlab-line:before {
+  content: "\eda6";
+}
+:global .ri-global-fill:before {
+  content: "\eda7";
+}
+:global .ri-global-line:before {
+  content: "\eda8";
+}
+:global .ri-globe-fill:before {
+  content: "\eda9";
+}
+:global .ri-globe-line:before {
+  content: "\edaa";
+}
+:global .ri-goblet-fill:before {
+  content: "\edab";
+}
+:global .ri-goblet-line:before {
+  content: "\edac";
+}
+:global .ri-google-fill:before {
+  content: "\edad";
+}
+:global .ri-google-line:before {
+  content: "\edae";
+}
+:global .ri-google-play-fill:before {
+  content: "\edaf";
+}
+:global .ri-google-play-line:before {
+  content: "\edb0";
+}
+:global .ri-government-fill:before {
+  content: "\edb1";
+}
+:global .ri-government-line:before {
+  content: "\edb2";
+}
+:global .ri-gps-fill:before {
+  content: "\edb3";
+}
+:global .ri-gps-line:before {
+  content: "\edb4";
+}
+:global .ri-gradienter-fill:before {
+  content: "\edb5";
+}
+:global .ri-gradienter-line:before {
+  content: "\edb6";
+}
+:global .ri-grid-fill:before {
+  content: "\edb7";
+}
+:global .ri-grid-line:before {
+  content: "\edb8";
+}
+:global .ri-group-2-fill:before {
+  content: "\edb9";
+}
+:global .ri-group-2-line:before {
+  content: "\edba";
+}
+:global .ri-group-fill:before {
+  content: "\edbb";
+}
+:global .ri-group-line:before {
+  content: "\edbc";
+}
+:global .ri-guide-fill:before {
+  content: "\edbd";
+}
+:global .ri-guide-line:before {
+  content: "\edbe";
+}
+:global .ri-hail-fill:before {
+  content: "\edbf";
+}
+:global .ri-hail-line:before {
+  content: "\edc0";
+}
+:global .ri-hammer-fill:before {
+  content: "\edc1";
+}
+:global .ri-hammer-line:before {
+  content: "\edc2";
+}
+:global .ri-hand-coin-fill:before {
+  content: "\edc3";
+}
+:global .ri-hand-coin-line:before {
+  content: "\edc4";
+}
+:global .ri-hand-heart-fill:before {
+  content: "\edc5";
+}
+:global .ri-hand-heart-line:before {
+  content: "\edc6";
+}
+:global .ri-handbag-fill:before {
+  content: "\edc7";
+}
+:global .ri-handbag-line:before {
+  content: "\edc8";
+}
+:global .ri-hard-drive-2-fill:before {
+  content: "\edc9";
+}
+:global .ri-hard-drive-2-line:before {
+  content: "\edca";
+}
+:global .ri-hard-drive-fill:before {
+  content: "\edcb";
+}
+:global .ri-hard-drive-line:before {
+  content: "\edcc";
+}
+:global .ri-hashtag:before {
+  content: "\edcd";
+}
+:global .ri-haze-2-fill:before {
+  content: "\edce";
+}
+:global .ri-haze-2-line:before {
+  content: "\edcf";
+}
+:global .ri-haze-fill:before {
+  content: "\edd0";
+}
+:global .ri-haze-line:before {
+  content: "\edd1";
+}
+:global .ri-hd-fill:before {
+  content: "\edd2";
+}
+:global .ri-hd-line:before {
+  content: "\edd3";
+}
+:global .ri-heading:before {
+  content: "\edd4";
+}
+:global .ri-headphone-fill:before {
+  content: "\edd5";
+}
+:global .ri-headphone-line:before {
+  content: "\edd6";
+}
+:global .ri-heart-2-fill:before {
+  content: "\edd7";
+}
+:global .ri-heart-2-line:before {
+  content: "\edd8";
+}
+:global .ri-heart-add-fill:before {
+  content: "\edd9";
+}
+:global .ri-heart-add-line:before {
+  content: "\edda";
+}
+:global .ri-heart-fill:before {
+  content: "\eddb";
+}
+:global .ri-heart-line:before {
+  content: "\eddc";
+}
+:global .ri-hearts-fill:before {
+  content: "\eddd";
+}
+:global .ri-hearts-line:before {
+  content: "\edde";
+}
+:global .ri-heavy-showers-fill:before {
+  content: "\eddf";
+}
+:global .ri-heavy-showers-line:before {
+  content: "\ede0";
+}
+:global .ri-history-fill:before {
+  content: "\ede1";
+}
+:global .ri-history-line:before {
+  content: "\ede2";
+}
+:global .ri-home-2-fill:before {
+  content: "\ede3";
+}
+:global .ri-home-2-line:before {
+  content: "\ede4";
+}
+:global .ri-home-3-fill:before {
+  content: "\ede5";
+}
+:global .ri-home-3-line:before {
+  content: "\ede6";
+}
+:global .ri-home-4-fill:before {
+  content: "\ede7";
+}
+:global .ri-home-4-line:before {
+  content: "\ede8";
+}
+:global .ri-home-5-fill:before {
+  content: "\ede9";
+}
+:global .ri-home-5-line:before {
+  content: "\edea";
+}
+:global .ri-home-6-fill:before {
+  content: "\edeb";
+}
+:global .ri-home-6-line:before {
+  content: "\edec";
+}
+:global .ri-home-7-fill:before {
+  content: "\eded";
+}
+:global .ri-home-7-line:before {
+  content: "\edee";
+}
+:global .ri-home-8-fill:before {
+  content: "\edef";
+}
+:global .ri-home-8-line:before {
+  content: "\edf0";
+}
+:global .ri-home-fill:before {
+  content: "\edf1";
+}
+:global .ri-home-gear-fill:before {
+  content: "\edf2";
+}
+:global .ri-home-gear-line:before {
+  content: "\edf3";
+}
+:global .ri-home-heart-fill:before {
+  content: "\edf4";
+}
+:global .ri-home-heart-line:before {
+  content: "\edf5";
+}
+:global .ri-home-line:before {
+  content: "\edf6";
+}
+:global .ri-home-smile-2-fill:before {
+  content: "\edf7";
+}
+:global .ri-home-smile-2-line:before {
+  content: "\edf8";
+}
+:global .ri-home-smile-fill:before {
+  content: "\edf9";
+}
+:global .ri-home-smile-line:before {
+  content: "\edfa";
+}
+:global .ri-home-wifi-fill:before {
+  content: "\edfb";
+}
+:global .ri-home-wifi-line:before {
+  content: "\edfc";
+}
+:global .ri-honor-of-kings-fill:before {
+  content: "\edfd";
+}
+:global .ri-honor-of-kings-line:before {
+  content: "\edfe";
+}
+:global .ri-honour-fill:before {
+  content: "\edff";
+}
+:global .ri-honour-line:before {
+  content: "\ee00";
+}
+:global .ri-hospital-fill:before {
+  content: "\ee01";
+}
+:global .ri-hospital-line:before {
+  content: "\ee02";
+}
+:global .ri-hotel-bed-fill:before {
+  content: "\ee03";
+}
+:global .ri-hotel-bed-line:before {
+  content: "\ee04";
+}
+:global .ri-hotel-fill:before {
+  content: "\ee05";
+}
+:global .ri-hotel-line:before {
+  content: "\ee06";
+}
+:global .ri-hotspot-fill:before {
+  content: "\ee07";
+}
+:global .ri-hotspot-line:before {
+  content: "\ee08";
+}
+:global .ri-hq-fill:before {
+  content: "\ee09";
+}
+:global .ri-hq-line:before {
+  content: "\ee0a";
+}
+:global .ri-html5-fill:before {
+  content: "\ee0b";
+}
+:global .ri-html5-line:before {
+  content: "\ee0c";
+}
+:global .ri-ie-fill:before {
+  content: "\ee0d";
+}
+:global .ri-ie-line:before {
+  content: "\ee0e";
+}
+:global .ri-image-2-fill:before {
+  content: "\ee0f";
+}
+:global .ri-image-2-line:before {
+  content: "\ee10";
+}
+:global .ri-image-add-fill:before {
+  content: "\ee11";
+}
+:global .ri-image-add-line:before {
+  content: "\ee12";
+}
+:global .ri-image-fill:before {
+  content: "\ee13";
+}
+:global .ri-image-line:before {
+  content: "\ee14";
+}
+:global .ri-inbox-archive-fill:before {
+  content: "\ee15";
+}
+:global .ri-inbox-archive-line:before {
+  content: "\ee16";
+}
+:global .ri-inbox-fill:before {
+  content: "\ee17";
+}
+:global .ri-inbox-line:before {
+  content: "\ee18";
+}
+:global .ri-inbox-unarchive-fill:before {
+  content: "\ee19";
+}
+:global .ri-inbox-unarchive-line:before {
+  content: "\ee1a";
+}
+:global .ri-increase-decrease-fill:before {
+  content: "\ee1b";
+}
+:global .ri-increase-decrease-line:before {
+  content: "\ee1c";
+}
+:global .ri-indent-decrease:before {
+  content: "\ee1d";
+}
+:global .ri-indent-increase:before {
+  content: "\ee1e";
+}
+:global .ri-indeterminate-circle-fill:before {
+  content: "\ee1f";
+}
+:global .ri-indeterminate-circle-line:before {
+  content: "\ee20";
+}
+:global .ri-information-fill:before {
+  content: "\ee21";
+}
+:global .ri-information-line:before {
+  content: "\ee22";
+}
+:global .ri-input-cursor-move:before {
+  content: "\ee23";
+}
+:global .ri-input-method-fill:before {
+  content: "\ee24";
+}
+:global .ri-input-method-line:before {
+  content: "\ee25";
+}
+:global .ri-instagram-fill:before {
+  content: "\ee26";
+}
+:global .ri-instagram-line:before {
+  content: "\ee27";
+}
+:global .ri-install-fill:before {
+  content: "\ee28";
+}
+:global .ri-install-line:before {
+  content: "\ee29";
+}
+:global .ri-invision-fill:before {
+  content: "\ee2a";
+}
+:global .ri-invision-line:before {
+  content: "\ee2b";
+}
+:global .ri-italic:before {
+  content: "\ee2c";
+}
+:global .ri-kakao-talk-fill:before {
+  content: "\ee2d";
+}
+:global .ri-kakao-talk-line:before {
+  content: "\ee2e";
+}
+:global .ri-key-2-fill:before {
+  content: "\ee2f";
+}
+:global .ri-key-2-line:before {
+  content: "\ee30";
+}
+:global .ri-key-fill:before {
+  content: "\ee31";
+}
+:global .ri-key-line:before {
+  content: "\ee32";
+}
+:global .ri-keyboard-box-fill:before {
+  content: "\ee33";
+}
+:global .ri-keyboard-box-line:before {
+  content: "\ee34";
+}
+:global .ri-keyboard-fill:before {
+  content: "\ee35";
+}
+:global .ri-keyboard-line:before {
+  content: "\ee36";
+}
+:global .ri-keynote-fill:before {
+  content: "\ee37";
+}
+:global .ri-keynote-line:before {
+  content: "\ee38";
+}
+:global .ri-knife-blood-fill:before {
+  content: "\ee39";
+}
+:global .ri-knife-blood-line:before {
+  content: "\ee3a";
+}
+:global .ri-knife-fill:before {
+  content: "\ee3b";
+}
+:global .ri-knife-line:before {
+  content: "\ee3c";
+}
+:global .ri-landscape-fill:before {
+  content: "\ee3d";
+}
+:global .ri-landscape-line:before {
+  content: "\ee3e";
+}
+:global .ri-layout-2-fill:before {
+  content: "\ee3f";
+}
+:global .ri-layout-2-line:before {
+  content: "\ee40";
+}
+:global .ri-layout-3-fill:before {
+  content: "\ee41";
+}
+:global .ri-layout-3-line:before {
+  content: "\ee42";
+}
+:global .ri-layout-4-fill:before {
+  content: "\ee43";
+}
+:global .ri-layout-4-line:before {
+  content: "\ee44";
+}
+:global .ri-layout-5-fill:before {
+  content: "\ee45";
+}
+:global .ri-layout-5-line:before {
+  content: "\ee46";
+}
+:global .ri-layout-6-fill:before {
+  content: "\ee47";
+}
+:global .ri-layout-6-line:before {
+  content: "\ee48";
+}
+:global .ri-layout-bottom-2-fill:before {
+  content: "\ee49";
+}
+:global .ri-layout-bottom-2-line:before {
+  content: "\ee4a";
+}
+:global .ri-layout-bottom-fill:before {
+  content: "\ee4b";
+}
+:global .ri-layout-bottom-line:before {
+  content: "\ee4c";
+}
+:global .ri-layout-column-fill:before {
+  content: "\ee4d";
+}
+:global .ri-layout-column-line:before {
+  content: "\ee4e";
+}
+:global .ri-layout-fill:before {
+  content: "\ee4f";
+}
+:global .ri-layout-grid-fill:before {
+  content: "\ee50";
+}
+:global .ri-layout-grid-line:before {
+  content: "\ee51";
+}
+:global .ri-layout-left-2-fill:before {
+  content: "\ee52";
+}
+:global .ri-layout-left-2-line:before {
+  content: "\ee53";
+}
+:global .ri-layout-left-fill:before {
+  content: "\ee54";
+}
+:global .ri-layout-left-line:before {
+  content: "\ee55";
+}
+:global .ri-layout-line:before {
+  content: "\ee56";
+}
+:global .ri-layout-masonry-fill:before {
+  content: "\ee57";
+}
+:global .ri-layout-masonry-line:before {
+  content: "\ee58";
+}
+:global .ri-layout-right-2-fill:before {
+  content: "\ee59";
+}
+:global .ri-layout-right-2-line:before {
+  content: "\ee5a";
+}
+:global .ri-layout-right-fill:before {
+  content: "\ee5b";
+}
+:global .ri-layout-right-line:before {
+  content: "\ee5c";
+}
+:global .ri-layout-row-fill:before {
+  content: "\ee5d";
+}
+:global .ri-layout-row-line:before {
+  content: "\ee5e";
+}
+:global .ri-layout-top-2-fill:before {
+  content: "\ee5f";
+}
+:global .ri-layout-top-2-line:before {
+  content: "\ee60";
+}
+:global .ri-layout-top-fill:before {
+  content: "\ee61";
+}
+:global .ri-layout-top-line:before {
+  content: "\ee62";
+}
+:global .ri-leaf-fill:before {
+  content: "\ee63";
+}
+:global .ri-leaf-line:before {
+  content: "\ee64";
+}
+:global .ri-lifebuoy-fill:before {
+  content: "\ee65";
+}
+:global .ri-lifebuoy-line:before {
+  content: "\ee66";
+}
+:global .ri-lightbulb-fill:before {
+  content: "\ee67";
+}
+:global .ri-lightbulb-flash-fill:before {
+  content: "\ee68";
+}
+:global .ri-lightbulb-flash-line:before {
+  content: "\ee69";
+}
+:global .ri-lightbulb-line:before {
+  content: "\ee6a";
+}
+:global .ri-line-chart-fill:before {
+  content: "\ee6b";
+}
+:global .ri-line-chart-line:before {
+  content: "\ee6c";
+}
+:global .ri-line-fill:before {
+  content: "\ee6d";
+}
+:global .ri-line-height:before {
+  content: "\ee6e";
+}
+:global .ri-line-line:before {
+  content: "\ee6f";
+}
+:global .ri-link-m:before {
+  content: "\ee70";
+}
+:global .ri-link-unlink-m:before {
+  content: "\ee71";
+}
+:global .ri-link-unlink:before {
+  content: "\ee72";
+}
+:global .ri-link:before {
+  content: "\ee73";
+}
+:global .ri-linkedin-box-fill:before {
+  content: "\ee74";
+}
+:global .ri-linkedin-box-line:before {
+  content: "\ee75";
+}
+:global .ri-linkedin-fill:before {
+  content: "\ee76";
+}
+:global .ri-linkedin-line:before {
+  content: "\ee77";
+}
+:global .ri-links-fill:before {
+  content: "\ee78";
+}
+:global .ri-links-line:before {
+  content: "\ee79";
+}
+:global .ri-list-check-2:before {
+  content: "\ee7a";
+}
+:global .ri-list-check:before {
+  content: "\ee7b";
+}
+:global .ri-list-ordered:before {
+  content: "\ee7c";
+}
+:global .ri-list-settings-fill:before {
+  content: "\ee7d";
+}
+:global .ri-list-settings-line:before {
+  content: "\ee7e";
+}
+:global .ri-list-unordered:before {
+  content: "\ee7f";
+}
+:global .ri-live-fill:before {
+  content: "\ee80";
+}
+:global .ri-live-line:before {
+  content: "\ee81";
+}
+:global .ri-loader-2-fill:before {
+  content: "\ee82";
+}
+:global .ri-loader-2-line:before {
+  content: "\ee83";
+}
+:global .ri-loader-3-fill:before {
+  content: "\ee84";
+}
+:global .ri-loader-3-line:before {
+  content: "\ee85";
+}
+:global .ri-loader-4-fill:before {
+  content: "\ee86";
+}
+:global .ri-loader-4-line:before {
+  content: "\ee87";
+}
+:global .ri-loader-5-fill:before {
+  content: "\ee88";
+}
+:global .ri-loader-5-line:before {
+  content: "\ee89";
+}
+:global .ri-loader-fill:before {
+  content: "\ee8a";
+}
+:global .ri-loader-line:before {
+  content: "\ee8b";
+}
+:global .ri-lock-2-fill:before {
+  content: "\ee8c";
+}
+:global .ri-lock-2-line:before {
+  content: "\ee8d";
+}
+:global .ri-lock-fill:before {
+  content: "\ee8e";
+}
+:global .ri-lock-line:before {
+  content: "\ee8f";
+}
+:global .ri-lock-password-fill:before {
+  content: "\ee90";
+}
+:global .ri-lock-password-line:before {
+  content: "\ee91";
+}
+:global .ri-lock-unlock-fill:before {
+  content: "\ee92";
+}
+:global .ri-lock-unlock-line:before {
+  content: "\ee93";
+}
+:global .ri-login-box-fill:before {
+  content: "\ee94";
+}
+:global .ri-login-box-line:before {
+  content: "\ee95";
+}
+:global .ri-login-circle-fill:before {
+  content: "\ee96";
+}
+:global .ri-login-circle-line:before {
+  content: "\ee97";
+}
+:global .ri-logout-box-fill:before {
+  content: "\ee98";
+}
+:global .ri-logout-box-line:before {
+  content: "\ee99";
+}
+:global .ri-logout-box-r-fill:before {
+  content: "\ee9a";
+}
+:global .ri-logout-box-r-line:before {
+  content: "\ee9b";
+}
+:global .ri-logout-circle-fill:before {
+  content: "\ee9c";
+}
+:global .ri-logout-circle-line:before {
+  content: "\ee9d";
+}
+:global .ri-logout-circle-r-fill:before {
+  content: "\ee9e";
+}
+:global .ri-logout-circle-r-line:before {
+  content: "\ee9f";
+}
+:global .ri-luggage-cart-fill:before {
+  content: "\eea0";
+}
+:global .ri-luggage-cart-line:before {
+  content: "\eea1";
+}
+:global .ri-luggage-deposit-fill:before {
+  content: "\eea2";
+}
+:global .ri-luggage-deposit-line:before {
+  content: "\eea3";
+}
+:global .ri-mac-fill:before {
+  content: "\eea4";
+}
+:global .ri-mac-line:before {
+  content: "\eea5";
+}
+:global .ri-macbook-fill:before {
+  content: "\eea6";
+}
+:global .ri-macbook-line:before {
+  content: "\eea7";
+}
+:global .ri-magic-fill:before {
+  content: "\eea8";
+}
+:global .ri-magic-line:before {
+  content: "\eea9";
+}
+:global .ri-mail-add-fill:before {
+  content: "\eeaa";
+}
+:global .ri-mail-add-line:before {
+  content: "\eeab";
+}
+:global .ri-mail-check-fill:before {
+  content: "\eeac";
+}
+:global .ri-mail-check-line:before {
+  content: "\eead";
+}
+:global .ri-mail-close-fill:before {
+  content: "\eeae";
+}
+:global .ri-mail-close-line:before {
+  content: "\eeaf";
+}
+:global .ri-mail-download-fill:before {
+  content: "\eeb0";
+}
+:global .ri-mail-download-line:before {
+  content: "\eeb1";
+}
+:global .ri-mail-fill:before {
+  content: "\eeb2";
+}
+:global .ri-mail-forbid-fill:before {
+  content: "\eeb3";
+}
+:global .ri-mail-forbid-line:before {
+  content: "\eeb4";
+}
+:global .ri-mail-line:before {
+  content: "\eeb5";
+}
+:global .ri-mail-lock-fill:before {
+  content: "\eeb6";
+}
+:global .ri-mail-lock-line:before {
+  content: "\eeb7";
+}
+:global .ri-mail-open-fill:before {
+  content: "\eeb8";
+}
+:global .ri-mail-open-line:before {
+  content: "\eeb9";
+}
+:global .ri-mail-send-fill:before {
+  content: "\eeba";
+}
+:global .ri-mail-send-line:before {
+  content: "\eebb";
+}
+:global .ri-mail-settings-fill:before {
+  content: "\eebc";
+}
+:global .ri-mail-settings-line:before {
+  content: "\eebd";
+}
+:global .ri-mail-star-fill:before {
+  content: "\eebe";
+}
+:global .ri-mail-star-line:before {
+  content: "\eebf";
+}
+:global .ri-mail-unread-fill:before {
+  content: "\eec0";
+}
+:global .ri-mail-unread-line:before {
+  content: "\eec1";
+}
+:global .ri-mail-volume-fill:before {
+  content: "\eec2";
+}
+:global .ri-mail-volume-line:before {
+  content: "\eec3";
+}
+:global .ri-map-2-fill:before {
+  content: "\eec4";
+}
+:global .ri-map-2-line:before {
+  content: "\eec5";
+}
+:global .ri-map-fill:before {
+  content: "\eec6";
+}
+:global .ri-map-line:before {
+  content: "\eec7";
+}
+:global .ri-map-pin-2-fill:before {
+  content: "\eec8";
+}
+:global .ri-map-pin-2-line:before {
+  content: "\eec9";
+}
+:global .ri-map-pin-3-fill:before {
+  content: "\eeca";
+}
+:global .ri-map-pin-3-line:before {
+  content: "\eecb";
+}
+:global .ri-map-pin-4-fill:before {
+  content: "\eecc";
+}
+:global .ri-map-pin-4-line:before {
+  content: "\eecd";
+}
+:global .ri-map-pin-5-fill:before {
+  content: "\eece";
+}
+:global .ri-map-pin-5-line:before {
+  content: "\eecf";
+}
+:global .ri-map-pin-add-fill:before {
+  content: "\eed0";
+}
+:global .ri-map-pin-add-line:before {
+  content: "\eed1";
+}
+:global .ri-map-pin-fill:before {
+  content: "\eed2";
+}
+:global .ri-map-pin-line:before {
+  content: "\eed3";
+}
+:global .ri-map-pin-range-fill:before {
+  content: "\eed4";
+}
+:global .ri-map-pin-range-line:before {
+  content: "\eed5";
+}
+:global .ri-map-pin-time-fill:before {
+  content: "\eed6";
+}
+:global .ri-map-pin-time-line:before {
+  content: "\eed7";
+}
+:global .ri-map-pin-user-fill:before {
+  content: "\eed8";
+}
+:global .ri-map-pin-user-line:before {
+  content: "\eed9";
+}
+:global .ri-mark-pen-fill:before {
+  content: "\eeda";
+}
+:global .ri-mark-pen-line:before {
+  content: "\eedb";
+}
+:global .ri-markdown-fill:before {
+  content: "\eedc";
+}
+:global .ri-markdown-line:before {
+  content: "\eedd";
+}
+:global .ri-markup-fill:before {
+  content: "\eede";
+}
+:global .ri-markup-line:before {
+  content: "\eedf";
+}
+:global .ri-mastercard-fill:before {
+  content: "\eee0";
+}
+:global .ri-mastercard-line:before {
+  content: "\eee1";
+}
+:global .ri-mastodon-fill:before {
+  content: "\eee2";
+}
+:global .ri-mastodon-line:before {
+  content: "\eee3";
+}
+:global .ri-medal-2-fill:before {
+  content: "\eee4";
+}
+:global .ri-medal-2-line:before {
+  content: "\eee5";
+}
+:global .ri-medal-fill:before {
+  content: "\eee6";
+}
+:global .ri-medal-line:before {
+  content: "\eee7";
+}
+:global .ri-medium-fill:before {
+  content: "\eee8";
+}
+:global .ri-medium-line:before {
+  content: "\eee9";
+}
+:global .ri-men-fill:before {
+  content: "\eeea";
+}
+:global .ri-men-line:before {
+  content: "\eeeb";
+}
+:global .ri-menu-2-fill:before {
+  content: "\eeec";
+}
+:global .ri-menu-2-line:before {
+  content: "\eeed";
+}
+:global .ri-menu-3-fill:before {
+  content: "\eeee";
+}
+:global .ri-menu-3-line:before {
+  content: "\eeef";
+}
+:global .ri-menu-4-fill:before {
+  content: "\eef0";
+}
+:global .ri-menu-4-line:before {
+  content: "\eef1";
+}
+:global .ri-menu-5-fill:before {
+  content: "\eef2";
+}
+:global .ri-menu-5-line:before {
+  content: "\eef3";
+}
+:global .ri-menu-add-fill:before {
+  content: "\eef4";
+}
+:global .ri-menu-add-line:before {
+  content: "\eef5";
+}
+:global .ri-menu-fill:before {
+  content: "\eef6";
+}
+:global .ri-menu-line:before {
+  content: "\eef7";
+}
+:global .ri-message-2-fill:before {
+  content: "\eef8";
+}
+:global .ri-message-2-line:before {
+  content: "\eef9";
+}
+:global .ri-message-3-fill:before {
+  content: "\eefa";
+}
+:global .ri-message-3-line:before {
+  content: "\eefb";
+}
+:global .ri-message-fill:before {
+  content: "\eefc";
+}
+:global .ri-message-line:before {
+  content: "\eefd";
+}
+:global .ri-messenger-fill:before {
+  content: "\eefe";
+}
+:global .ri-messenger-line:before {
+  content: "\eeff";
+}
+:global .ri-meteor-fill:before {
+  content: "\ef00";
+}
+:global .ri-meteor-line:before {
+  content: "\ef01";
+}
+:global .ri-mic-2-fill:before {
+  content: "\ef02";
+}
+:global .ri-mic-2-line:before {
+  content: "\ef03";
+}
+:global .ri-mic-fill:before {
+  content: "\ef04";
+}
+:global .ri-mic-line:before {
+  content: "\ef05";
+}
+:global .ri-mic-off-fill:before {
+  content: "\ef06";
+}
+:global .ri-mic-off-line:before {
+  content: "\ef07";
+}
+:global .ri-mickey-fill:before {
+  content: "\ef08";
+}
+:global .ri-mickey-line:before {
+  content: "\ef09";
+}
+:global .ri-mini-program-fill:before {
+  content: "\ef0a";
+}
+:global .ri-mini-program-line:before {
+  content: "\ef0b";
+}
+:global .ri-mist-fill:before {
+  content: "\ef0c";
+}
+:global .ri-mist-line:before {
+  content: "\ef0d";
+}
+:global .ri-money-cny-box-fill:before {
+  content: "\ef0e";
+}
+:global .ri-money-cny-box-line:before {
+  content: "\ef0f";
+}
+:global .ri-money-cny-circle-fill:before {
+  content: "\ef10";
+}
+:global .ri-money-cny-circle-line:before {
+  content: "\ef11";
+}
+:global .ri-money-dollar-box-fill:before {
+  content: "\ef12";
+}
+:global .ri-money-dollar-box-line:before {
+  content: "\ef13";
+}
+:global .ri-money-dollar-circle-fill:before {
+  content: "\ef14";
+}
+:global .ri-money-dollar-circle-line:before {
+  content: "\ef15";
+}
+:global .ri-money-euro-box-fill:before {
+  content: "\ef16";
+}
+:global .ri-money-euro-box-line:before {
+  content: "\ef17";
+}
+:global .ri-money-euro-circle-fill:before {
+  content: "\ef18";
+}
+:global .ri-money-euro-circle-line:before {
+  content: "\ef19";
+}
+:global .ri-money-pound-box-fill:before {
+  content: "\ef1a";
+}
+:global .ri-money-pound-box-line:before {
+  content: "\ef1b";
+}
+:global .ri-money-pound-circle-fill:before {
+  content: "\ef1c";
+}
+:global .ri-money-pound-circle-line:before {
+  content: "\ef1d";
+}
+:global .ri-moon-clear-fill:before {
+  content: "\ef1e";
+}
+:global .ri-moon-clear-line:before {
+  content: "\ef1f";
+}
+:global .ri-moon-cloudy-fill:before {
+  content: "\ef20";
+}
+:global .ri-moon-cloudy-line:before {
+  content: "\ef21";
+}
+:global .ri-moon-fill:before {
+  content: "\ef22";
+}
+:global .ri-moon-foggy-fill:before {
+  content: "\ef23";
+}
+:global .ri-moon-foggy-line:before {
+  content: "\ef24";
+}
+:global .ri-moon-line:before {
+  content: "\ef25";
+}
+:global .ri-more-2-fill:before {
+  content: "\ef26";
+}
+:global .ri-more-2-line:before {
+  content: "\ef27";
+}
+:global .ri-more-fill:before {
+  content: "\ef28";
+}
+:global .ri-more-line:before {
+  content: "\ef29";
+}
+:global .ri-motorbike-fill:before {
+  content: "\ef2a";
+}
+:global .ri-motorbike-line:before {
+  content: "\ef2b";
+}
+:global .ri-mouse-fill:before {
+  content: "\ef2c";
+}
+:global .ri-mouse-line:before {
+  content: "\ef2d";
+}
+:global .ri-movie-2-fill:before {
+  content: "\ef2e";
+}
+:global .ri-movie-2-line:before {
+  content: "\ef2f";
+}
+:global .ri-movie-fill:before {
+  content: "\ef30";
+}
+:global .ri-movie-line:before {
+  content: "\ef31";
+}
+:global .ri-music-2-fill:before {
+  content: "\ef32";
+}
+:global .ri-music-2-line:before {
+  content: "\ef33";
+}
+:global .ri-music-fill:before {
+  content: "\ef34";
+}
+:global .ri-music-line:before {
+  content: "\ef35";
+}
+:global .ri-mv-fill:before {
+  content: "\ef36";
+}
+:global .ri-mv-line:before {
+  content: "\ef37";
+}
+:global .ri-navigation-fill:before {
+  content: "\ef38";
+}
+:global .ri-navigation-line:before {
+  content: "\ef39";
+}
+:global .ri-netease-cloud-music-fill:before {
+  content: "\ef3a";
+}
+:global .ri-netease-cloud-music-line:before {
+  content: "\ef3b";
+}
+:global .ri-netflix-fill:before {
+  content: "\ef3c";
+}
+:global .ri-netflix-line:before {
+  content: "\ef3d";
+}
+:global .ri-newspaper-fill:before {
+  content: "\ef3e";
+}
+:global .ri-newspaper-line:before {
+  content: "\ef3f";
+}
+:global .ri-notification-2-fill:before {
+  content: "\ef40";
+}
+:global .ri-notification-2-line:before {
+  content: "\ef41";
+}
+:global .ri-notification-3-fill:before {
+  content: "\ef42";
+}
+:global .ri-notification-3-line:before {
+  content: "\ef43";
+}
+:global .ri-notification-4-fill:before {
+  content: "\ef44";
+}
+:global .ri-notification-4-line:before {
+  content: "\ef45";
+}
+:global .ri-notification-badge-fill:before {
+  content: "\ef46";
+}
+:global .ri-notification-badge-line:before {
+  content: "\ef47";
+}
+:global .ri-notification-fill:before {
+  content: "\ef48";
+}
+:global .ri-notification-line:before {
+  content: "\ef49";
+}
+:global .ri-notification-off-fill:before {
+  content: "\ef4a";
+}
+:global .ri-notification-off-line:before {
+  content: "\ef4b";
+}
+:global .ri-npmjs-fill:before {
+  content: "\ef4c";
+}
+:global .ri-npmjs-line:before {
+  content: "\ef4d";
+}
+:global .ri-number-0:before {
+  content: "\ef4e";
+}
+:global .ri-number-1:before {
+  content: "\ef4f";
+}
+:global .ri-number-2:before {
+  content: "\ef50";
+}
+:global .ri-number-3:before {
+  content: "\ef51";
+}
+:global .ri-number-4:before {
+  content: "\ef52";
+}
+:global .ri-number-5:before {
+  content: "\ef53";
+}
+:global .ri-number-6:before {
+  content: "\ef54";
+}
+:global .ri-number-7:before {
+  content: "\ef55";
+}
+:global .ri-number-8:before {
+  content: "\ef56";
+}
+:global .ri-number-9:before {
+  content: "\ef57";
+}
+:global .ri-numbers-fill:before {
+  content: "\ef58";
+}
+:global .ri-numbers-line:before {
+  content: "\ef59";
+}
+:global .ri-oil-fill:before {
+  content: "\ef5a";
+}
+:global .ri-oil-line:before {
+  content: "\ef5b";
+}
+:global .ri-omega:before {
+  content: "\ef5c";
+}
+:global .ri-open-arm-fill:before {
+  content: "\ef5d";
+}
+:global .ri-open-arm-line:before {
+  content: "\ef5e";
+}
+:global .ri-open-source-fill:before {
+  content: "\ef5f";
+}
+:global .ri-open-source-line:before {
+  content: "\ef60";
+}
+:global .ri-opera-fill:before {
+  content: "\ef61";
+}
+:global .ri-opera-line:before {
+  content: "\ef62";
+}
+:global .ri-order-play-fill:before {
+  content: "\ef63";
+}
+:global .ri-order-play-line:before {
+  content: "\ef64";
+}
+:global .ri-outlet-2-fill:before {
+  content: "\ef65";
+}
+:global .ri-outlet-2-line:before {
+  content: "\ef66";
+}
+:global .ri-outlet-fill:before {
+  content: "\ef67";
+}
+:global .ri-outlet-line:before {
+  content: "\ef68";
+}
+:global .ri-page-separator:before {
+  content: "\ef69";
+}
+:global .ri-pages-fill:before {
+  content: "\ef6a";
+}
+:global .ri-pages-line:before {
+  content: "\ef6b";
+}
+:global .ri-paint-brush-fill:before {
+  content: "\ef6c";
+}
+:global .ri-paint-brush-line:before {
+  content: "\ef6d";
+}
+:global .ri-paint-fill:before {
+  content: "\ef6e";
+}
+:global .ri-paint-line:before {
+  content: "\ef6f";
+}
+:global .ri-palette-fill:before {
+  content: "\ef70";
+}
+:global .ri-palette-line:before {
+  content: "\ef71";
+}
+:global .ri-pantone-fill:before {
+  content: "\ef72";
+}
+:global .ri-pantone-line:before {
+  content: "\ef73";
+}
+:global .ri-paragraph:before {
+  content: "\ef74";
+}
+:global .ri-parent-fill:before {
+  content: "\ef75";
+}
+:global .ri-parent-line:before {
+  content: "\ef76";
+}
+:global .ri-parentheses-fill:before {
+  content: "\ef77";
+}
+:global .ri-parentheses-line:before {
+  content: "\ef78";
+}
+:global .ri-parking-box-fill:before {
+  content: "\ef79";
+}
+:global .ri-parking-box-line:before {
+  content: "\ef7a";
+}
+:global .ri-parking-fill:before {
+  content: "\ef7b";
+}
+:global .ri-parking-line:before {
+  content: "\ef7c";
+}
+:global .ri-passport-fill:before {
+  content: "\ef7d";
+}
+:global .ri-passport-line:before {
+  content: "\ef7e";
+}
+:global .ri-patreon-fill:before {
+  content: "\ef7f";
+}
+:global .ri-patreon-line:before {
+  content: "\ef80";
+}
+:global .ri-pause-circle-fill:before {
+  content: "\ef81";
+}
+:global .ri-pause-circle-line:before {
+  content: "\ef82";
+}
+:global .ri-pause-fill:before {
+  content: "\ef83";
+}
+:global .ri-pause-line:before {
+  content: "\ef84";
+}
+:global .ri-pause-mini-fill:before {
+  content: "\ef85";
+}
+:global .ri-pause-mini-line:before {
+  content: "\ef86";
+}
+:global .ri-paypal-fill:before {
+  content: "\ef87";
+}
+:global .ri-paypal-line:before {
+  content: "\ef88";
+}
+:global .ri-pen-nib-fill:before {
+  content: "\ef89";
+}
+:global .ri-pen-nib-line:before {
+  content: "\ef8a";
+}
+:global .ri-pencil-fill:before {
+  content: "\ef8b";
+}
+:global .ri-pencil-line:before {
+  content: "\ef8c";
+}
+:global .ri-pencil-ruler-2-fill:before {
+  content: "\ef8d";
+}
+:global .ri-pencil-ruler-2-line:before {
+  content: "\ef8e";
+}
+:global .ri-pencil-ruler-fill:before {
+  content: "\ef8f";
+}
+:global .ri-pencil-ruler-line:before {
+  content: "\ef90";
+}
+:global .ri-percent-fill:before {
+  content: "\ef91";
+}
+:global .ri-percent-line:before {
+  content: "\ef92";
+}
+:global .ri-phone-camera-fill:before {
+  content: "\ef93";
+}
+:global .ri-phone-camera-line:before {
+  content: "\ef94";
+}
+:global .ri-phone-fill:before {
+  content: "\ef95";
+}
+:global .ri-phone-find-fill:before {
+  content: "\ef96";
+}
+:global .ri-phone-find-line:before {
+  content: "\ef97";
+}
+:global .ri-phone-line:before {
+  content: "\ef98";
+}
+:global .ri-phone-lock-fill:before {
+  content: "\ef99";
+}
+:global .ri-phone-lock-line:before {
+  content: "\ef9a";
+}
+:global .ri-picture-in-picture-2-fill:before {
+  content: "\ef9b";
+}
+:global .ri-picture-in-picture-2-line:before {
+  content: "\ef9c";
+}
+:global .ri-picture-in-picture-exit-fill:before {
+  content: "\ef9d";
+}
+:global .ri-picture-in-picture-exit-line:before {
+  content: "\ef9e";
+}
+:global .ri-picture-in-picture-fill:before {
+  content: "\ef9f";
+}
+:global .ri-picture-in-picture-line:before {
+  content: "\efa0";
+}
+:global .ri-pie-chart-2-fill:before {
+  content: "\efa1";
+}
+:global .ri-pie-chart-2-line:before {
+  content: "\efa2";
+}
+:global .ri-pie-chart-box-fill:before {
+  content: "\efa3";
+}
+:global .ri-pie-chart-box-line:before {
+  content: "\efa4";
+}
+:global .ri-pie-chart-fill:before {
+  content: "\efa5";
+}
+:global .ri-pie-chart-line:before {
+  content: "\efa6";
+}
+:global .ri-pin-distance-fill:before {
+  content: "\efa7";
+}
+:global .ri-pin-distance-line:before {
+  content: "\efa8";
+}
+:global .ri-ping-pong-fill:before {
+  content: "\efa9";
+}
+:global .ri-ping-pong-line:before {
+  content: "\efaa";
+}
+:global .ri-pinterest-fill:before {
+  content: "\efab";
+}
+:global .ri-pinterest-line:before {
+  content: "\efac";
+}
+:global .ri-pinyin-input:before {
+  content: "\efad";
+}
+:global .ri-pixelfed-fill:before {
+  content: "\efae";
+}
+:global .ri-pixelfed-line:before {
+  content: "\efaf";
+}
+:global .ri-plane-fill:before {
+  content: "\efb0";
+}
+:global .ri-plane-line:before {
+  content: "\efb1";
+}
+:global .ri-plant-fill:before {
+  content: "\efb2";
+}
+:global .ri-plant-line:before {
+  content: "\efb3";
+}
+:global .ri-play-circle-fill:before {
+  content: "\efb4";
+}
+:global .ri-play-circle-line:before {
+  content: "\efb5";
+}
+:global .ri-play-fill:before {
+  content: "\efb6";
+}
+:global .ri-play-line:before {
+  content: "\efb7";
+}
+:global .ri-play-list-add-fill:before {
+  content: "\efb8";
+}
+:global .ri-play-list-add-line:before {
+  content: "\efb9";
+}
+:global .ri-play-list-fill:before {
+  content: "\efba";
+}
+:global .ri-play-list-line:before {
+  content: "\efbb";
+}
+:global .ri-play-mini-fill:before {
+  content: "\efbc";
+}
+:global .ri-play-mini-line:before {
+  content: "\efbd";
+}
+:global .ri-playstation-fill:before {
+  content: "\efbe";
+}
+:global .ri-playstation-line:before {
+  content: "\efbf";
+}
+:global .ri-plug-2-fill:before {
+  content: "\efc0";
+}
+:global .ri-plug-2-line:before {
+  content: "\efc1";
+}
+:global .ri-plug-fill:before {
+  content: "\efc2";
+}
+:global .ri-plug-line:before {
+  content: "\efc3";
+}
+:global .ri-polaroid-2-fill:before {
+  content: "\efc4";
+}
+:global .ri-polaroid-2-line:before {
+  content: "\efc5";
+}
+:global .ri-polaroid-fill:before {
+  content: "\efc6";
+}
+:global .ri-polaroid-line:before {
+  content: "\efc7";
+}
+:global .ri-police-car-fill:before {
+  content: "\efc8";
+}
+:global .ri-police-car-line:before {
+  content: "\efc9";
+}
+:global .ri-price-tag-2-fill:before {
+  content: "\efca";
+}
+:global .ri-price-tag-2-line:before {
+  content: "\efcb";
+}
+:global .ri-price-tag-3-fill:before {
+  content: "\efcc";
+}
+:global .ri-price-tag-3-line:before {
+  content: "\efcd";
+}
+:global .ri-price-tag-fill:before {
+  content: "\efce";
+}
+:global .ri-price-tag-line:before {
+  content: "\efcf";
+}
+:global .ri-printer-cloud-fill:before {
+  content: "\efd0";
+}
+:global .ri-printer-cloud-line:before {
+  content: "\efd1";
+}
+:global .ri-printer-fill:before {
+  content: "\efd2";
+}
+:global .ri-printer-line:before {
+  content: "\efd3";
+}
+:global .ri-product-hunt-fill:before {
+  content: "\efd4";
+}
+:global .ri-product-hunt-line:before {
+  content: "\efd5";
+}
+:global .ri-profile-fill:before {
+  content: "\efd6";
+}
+:global .ri-profile-line:before {
+  content: "\efd7";
+}
+:global .ri-projector-2-fill:before {
+  content: "\efd8";
+}
+:global .ri-projector-2-line:before {
+  content: "\efd9";
+}
+:global .ri-projector-fill:before {
+  content: "\efda";
+}
+:global .ri-projector-line:before {
+  content: "\efdb";
+}
+:global .ri-pushpin-2-fill:before {
+  content: "\efdc";
+}
+:global .ri-pushpin-2-line:before {
+  content: "\efdd";
+}
+:global .ri-pushpin-fill:before {
+  content: "\efde";
+}
+:global .ri-pushpin-line:before {
+  content: "\efdf";
+}
+:global .ri-qq-fill:before {
+  content: "\efe0";
+}
+:global .ri-qq-line:before {
+  content: "\efe1";
+}
+:global .ri-qr-code-fill:before {
+  content: "\efe2";
+}
+:global .ri-qr-code-line:before {
+  content: "\efe3";
+}
+:global .ri-qr-scan-2-fill:before {
+  content: "\efe4";
+}
+:global .ri-qr-scan-2-line:before {
+  content: "\efe5";
+}
+:global .ri-qr-scan-fill:before {
+  content: "\efe6";
+}
+:global .ri-qr-scan-line:before {
+  content: "\efe7";
+}
+:global .ri-question-answer-fill:before {
+  content: "\efe8";
+}
+:global .ri-question-answer-line:before {
+  content: "\efe9";
+}
+:global .ri-question-fill:before {
+  content: "\efea";
+}
+:global .ri-question-line:before {
+  content: "\efeb";
+}
+:global .ri-questionnaire-fill:before {
+  content: "\efec";
+}
+:global .ri-questionnaire-line:before {
+  content: "\efed";
+}
+:global .ri-quill-pen-fill:before {
+  content: "\efee";
+}
+:global .ri-quill-pen-line:before {
+  content: "\efef";
+}
+:global .ri-radar-fill:before {
+  content: "\eff0";
+}
+:global .ri-radar-line:before {
+  content: "\eff1";
+}
+:global .ri-radio-2-fill:before {
+  content: "\eff2";
+}
+:global .ri-radio-2-line:before {
+  content: "\eff3";
+}
+:global .ri-radio-button-fill:before {
+  content: "\eff4";
+}
+:global .ri-radio-button-line:before {
+  content: "\eff5";
+}
+:global .ri-radio-fill:before {
+  content: "\eff6";
+}
+:global .ri-radio-line:before {
+  content: "\eff7";
+}
+:global .ri-rainbow-fill:before {
+  content: "\eff8";
+}
+:global .ri-rainbow-line:before {
+  content: "\eff9";
+}
+:global .ri-rainy-fill:before {
+  content: "\effa";
+}
+:global .ri-rainy-line:before {
+  content: "\effb";
+}
+:global .ri-reactjs-fill:before {
+  content: "\effc";
+}
+:global .ri-reactjs-line:before {
+  content: "\effd";
+}
+:global .ri-record-circle-fill:before {
+  content: "\effe";
+}
+:global .ri-record-circle-line:before {
+  content: "\efff";
+}
+:global .ri-record-mail-fill:before {
+  content: "\f000";
+}
+:global .ri-record-mail-line:before {
+  content: "\f001";
+}
+:global .ri-recycle-fill:before {
+  content: "\f002";
+}
+:global .ri-recycle-line:before {
+  content: "\f003";
+}
+:global .ri-red-packet-fill:before {
+  content: "\f004";
+}
+:global .ri-red-packet-line:before {
+  content: "\f005";
+}
+:global .ri-reddit-fill:before {
+  content: "\f006";
+}
+:global .ri-reddit-line:before {
+  content: "\f007";
+}
+:global .ri-refresh-fill:before {
+  content: "\f008";
+}
+:global .ri-refresh-line:before {
+  content: "\f009";
+}
+:global .ri-refund-2-fill:before {
+  content: "\f00a";
+}
+:global .ri-refund-2-line:before {
+  content: "\f00b";
+}
+:global .ri-refund-fill:before {
+  content: "\f00c";
+}
+:global .ri-refund-line:before {
+  content: "\f00d";
+}
+:global .ri-registered-fill:before {
+  content: "\f00e";
+}
+:global .ri-registered-line:before {
+  content: "\f00f";
+}
+:global .ri-remixicon-fill:before {
+  content: "\f010";
+}
+:global .ri-remixicon-line:before {
+  content: "\f011";
+}
+:global .ri-remote-control-2-fill:before {
+  content: "\f012";
+}
+:global .ri-remote-control-2-line:before {
+  content: "\f013";
+}
+:global .ri-remote-control-fill:before {
+  content: "\f014";
+}
+:global .ri-remote-control-line:before {
+  content: "\f015";
+}
+:global .ri-repeat-2-fill:before {
+  content: "\f016";
+}
+:global .ri-repeat-2-line:before {
+  content: "\f017";
+}
+:global .ri-repeat-fill:before {
+  content: "\f018";
+}
+:global .ri-repeat-line:before {
+  content: "\f019";
+}
+:global .ri-repeat-one-fill:before {
+  content: "\f01a";
+}
+:global .ri-repeat-one-line:before {
+  content: "\f01b";
+}
+:global .ri-reply-fill:before {
+  content: "\f01c";
+}
+:global .ri-reply-line:before {
+  content: "\f01d";
+}
+:global .ri-reserved-fill:before {
+  content: "\f01e";
+}
+:global .ri-reserved-line:before {
+  content: "\f01f";
+}
+:global .ri-restart-fill:before {
+  content: "\f020";
+}
+:global .ri-restart-line:before {
+  content: "\f021";
+}
+:global .ri-restaurant-2-fill:before {
+  content: "\f022";
+}
+:global .ri-restaurant-2-line:before {
+  content: "\f023";
+}
+:global .ri-restaurant-fill:before {
+  content: "\f024";
+}
+:global .ri-restaurant-line:before {
+  content: "\f025";
+}
+:global .ri-rewind-fill:before {
+  content: "\f026";
+}
+:global .ri-rewind-line:before {
+  content: "\f027";
+}
+:global .ri-rewind-mini-fill:before {
+  content: "\f028";
+}
+:global .ri-rewind-mini-line:before {
+  content: "\f029";
+}
+:global .ri-rhythm-fill:before {
+  content: "\f02a";
+}
+:global .ri-rhythm-line:before {
+  content: "\f02b";
+}
+:global .ri-riding-fill:before {
+  content: "\f02c";
+}
+:global .ri-riding-line:before {
+  content: "\f02d";
+}
+:global .ri-road-map-fill:before {
+  content: "\f02e";
+}
+:global .ri-road-map-line:before {
+  content: "\f02f";
+}
+:global .ri-roadster-fill:before {
+  content: "\f030";
+}
+:global .ri-roadster-line:before {
+  content: "\f031";
+}
+:global .ri-robot-fill:before {
+  content: "\f032";
+}
+:global .ri-robot-line:before {
+  content: "\f033";
+}
+:global .ri-rocket-2-fill:before {
+  content: "\f034";
+}
+:global .ri-rocket-2-line:before {
+  content: "\f035";
+}
+:global .ri-rocket-fill:before {
+  content: "\f036";
+}
+:global .ri-rocket-line:before {
+  content: "\f037";
+}
+:global .ri-rotate-lock-fill:before {
+  content: "\f038";
+}
+:global .ri-rotate-lock-line:before {
+  content: "\f039";
+}
+:global .ri-route-fill:before {
+  content: "\f03a";
+}
+:global .ri-route-line:before {
+  content: "\f03b";
+}
+:global .ri-router-fill:before {
+  content: "\f03c";
+}
+:global .ri-router-line:before {
+  content: "\f03d";
+}
+:global .ri-rss-fill:before {
+  content: "\f03e";
+}
+:global .ri-rss-line:before {
+  content: "\f03f";
+}
+:global .ri-ruler-2-fill:before {
+  content: "\f040";
+}
+:global .ri-ruler-2-line:before {
+  content: "\f041";
+}
+:global .ri-ruler-fill:before {
+  content: "\f042";
+}
+:global .ri-ruler-line:before {
+  content: "\f043";
+}
+:global .ri-run-fill:before {
+  content: "\f044";
+}
+:global .ri-run-line:before {
+  content: "\f045";
+}
+:global .ri-safari-fill:before {
+  content: "\f046";
+}
+:global .ri-safari-line:before {
+  content: "\f047";
+}
+:global .ri-safe-2-fill:before {
+  content: "\f048";
+}
+:global .ri-safe-2-line:before {
+  content: "\f049";
+}
+:global .ri-safe-fill:before {
+  content: "\f04a";
+}
+:global .ri-safe-line:before {
+  content: "\f04b";
+}
+:global .ri-sailboat-fill:before {
+  content: "\f04c";
+}
+:global .ri-sailboat-line:before {
+  content: "\f04d";
+}
+:global .ri-save-2-fill:before {
+  content: "\f04e";
+}
+:global .ri-save-2-line:before {
+  content: "\f04f";
+}
+:global .ri-save-3-fill:before {
+  content: "\f050";
+}
+:global .ri-save-3-line:before {
+  content: "\f051";
+}
+:global .ri-save-fill:before {
+  content: "\f052";
+}
+:global .ri-save-line:before {
+  content: "\f053";
+}
+:global .ri-scales-2-fill:before {
+  content: "\f054";
+}
+:global .ri-scales-2-line:before {
+  content: "\f055";
+}
+:global .ri-scales-fill:before {
+  content: "\f056";
+}
+:global .ri-scales-line:before {
+  content: "\f057";
+}
+:global .ri-scan-2-fill:before {
+  content: "\f058";
+}
+:global .ri-scan-2-line:before {
+  content: "\f059";
+}
+:global .ri-scan-fill:before {
+  content: "\f05a";
+}
+:global .ri-scan-line:before {
+  content: "\f05b";
+}
+:global .ri-scissors-2-fill:before {
+  content: "\f05c";
+}
+:global .ri-scissors-2-line:before {
+  content: "\f05d";
+}
+:global .ri-scissors-cut-fill:before {
+  content: "\f05e";
+}
+:global .ri-scissors-cut-line:before {
+  content: "\f05f";
+}
+:global .ri-scissors-fill:before {
+  content: "\f060";
+}
+:global .ri-scissors-line:before {
+  content: "\f061";
+}
+:global .ri-screenshot-2-fill:before {
+  content: "\f062";
+}
+:global .ri-screenshot-2-line:before {
+  content: "\f063";
+}
+:global .ri-screenshot-fill:before {
+  content: "\f064";
+}
+:global .ri-screenshot-line:before {
+  content: "\f065";
+}
+:global .ri-sd-card-fill:before {
+  content: "\f066";
+}
+:global .ri-sd-card-line:before {
+  content: "\f067";
+}
+:global .ri-sd-card-mini-fill:before {
+  content: "\f068";
+}
+:global .ri-sd-card-mini-line:before {
+  content: "\f069";
+}
+:global .ri-search-2-fill:before {
+  content: "\f06a";
+}
+:global .ri-search-2-line:before {
+  content: "\f06b";
+}
+:global .ri-search-eye-fill:before {
+  content: "\f06c";
+}
+:global .ri-search-eye-line:before {
+  content: "\f06d";
+}
+:global .ri-search-fill:before {
+  content: "\f06e";
+}
+:global .ri-search-line:before {
+  content: "\f06f";
+}
+:global .ri-secure-payment-fill:before {
+  content: "\f070";
+}
+:global .ri-secure-payment-line:before {
+  content: "\f071";
+}
+:global .ri-send-backward:before {
+  content: "\f072";
+}
+:global .ri-send-plane-2-fill:before {
+  content: "\f073";
+}
+:global .ri-send-plane-2-line:before {
+  content: "\f074";
+}
+:global .ri-send-plane-fill:before {
+  content: "\f075";
+}
+:global .ri-send-plane-line:before {
+  content: "\f076";
+}
+:global .ri-send-to-back:before {
+  content: "\f077";
+}
+:global .ri-sensor-fill:before {
+  content: "\f078";
+}
+:global .ri-sensor-line:before {
+  content: "\f079";
+}
+:global .ri-separator:before {
+  content: "\f07a";
+}
+:global .ri-server-fill:before {
+  content: "\f07b";
+}
+:global .ri-server-line:before {
+  content: "\f07c";
+}
+:global .ri-service-fill:before {
+  content: "\f07d";
+}
+:global .ri-service-line:before {
+  content: "\f07e";
+}
+:global .ri-settings-2-fill:before {
+  content: "\f07f";
+}
+:global .ri-settings-2-line:before {
+  content: "\f080";
+}
+:global .ri-settings-3-fill:before {
+  content: "\f081";
+}
+:global .ri-settings-3-line:before {
+  content: "\f082";
+}
+:global .ri-settings-4-fill:before {
+  content: "\f083";
+}
+:global .ri-settings-4-line:before {
+  content: "\f084";
+}
+:global .ri-settings-5-fill:before {
+  content: "\f085";
+}
+:global .ri-settings-5-line:before {
+  content: "\f086";
+}
+:global .ri-settings-6-fill:before {
+  content: "\f087";
+}
+:global .ri-settings-6-line:before {
+  content: "\f088";
+}
+:global .ri-settings-fill:before {
+  content: "\f089";
+}
+:global .ri-settings-line:before {
+  content: "\f08a";
+}
+:global .ri-shape-2-fill:before {
+  content: "\f08b";
+}
+:global .ri-shape-2-line:before {
+  content: "\f08c";
+}
+:global .ri-shape-fill:before {
+  content: "\f08d";
+}
+:global .ri-shape-line:before {
+  content: "\f08e";
+}
+:global .ri-share-box-fill:before {
+  content: "\f08f";
+}
+:global .ri-share-box-line:before {
+  content: "\f090";
+}
+:global .ri-share-circle-fill:before {
+  content: "\f091";
+}
+:global .ri-share-circle-line:before {
+  content: "\f092";
+}
+:global .ri-share-fill:before {
+  content: "\f093";
+}
+:global .ri-share-forward-2-fill:before {
+  content: "\f094";
+}
+:global .ri-share-forward-2-line:before {
+  content: "\f095";
+}
+:global .ri-share-forward-box-fill:before {
+  content: "\f096";
+}
+:global .ri-share-forward-box-line:before {
+  content: "\f097";
+}
+:global .ri-share-forward-fill:before {
+  content: "\f098";
+}
+:global .ri-share-forward-line:before {
+  content: "\f099";
+}
+:global .ri-share-line:before {
+  content: "\f09a";
+}
+:global .ri-shield-cross-fill:before {
+  content: "\f09b";
+}
+:global .ri-shield-cross-line:before {
+  content: "\f09c";
+}
+:global .ri-shield-fill:before {
+  content: "\f09d";
+}
+:global .ri-shield-flash-fill:before {
+  content: "\f09e";
+}
+:global .ri-shield-flash-line:before {
+  content: "\f09f";
+}
+:global .ri-shield-keyhole-fill:before {
+  content: "\f0a0";
+}
+:global .ri-shield-keyhole-line:before {
+  content: "\f0a1";
+}
+:global .ri-shield-line:before {
+  content: "\f0a2";
+}
+:global .ri-shield-star-fill:before {
+  content: "\f0a3";
+}
+:global .ri-shield-star-line:before {
+  content: "\f0a4";
+}
+:global .ri-shield-user-fill:before {
+  content: "\f0a5";
+}
+:global .ri-shield-user-line:before {
+  content: "\f0a6";
+}
+:global .ri-ship-2-fill:before {
+  content: "\f0a7";
+}
+:global .ri-ship-2-line:before {
+  content: "\f0a8";
+}
+:global .ri-ship-fill:before {
+  content: "\f0a9";
+}
+:global .ri-ship-line:before {
+  content: "\f0aa";
+}
+:global .ri-shirt-fill:before {
+  content: "\f0ab";
+}
+:global .ri-shirt-line:before {
+  content: "\f0ac";
+}
+:global .ri-shopping-bag-2-fill:before {
+  content: "\f0ad";
+}
+:global .ri-shopping-bag-2-line:before {
+  content: "\f0ae";
+}
+:global .ri-shopping-bag-3-fill:before {
+  content: "\f0af";
+}
+:global .ri-shopping-bag-3-line:before {
+  content: "\f0b0";
+}
+:global .ri-shopping-bag-fill:before {
+  content: "\f0b1";
+}
+:global .ri-shopping-bag-line:before {
+  content: "\f0b2";
+}
+:global .ri-shopping-basket-2-fill:before {
+  content: "\f0b3";
+}
+:global .ri-shopping-basket-2-line:before {
+  content: "\f0b4";
+}
+:global .ri-shopping-basket-fill:before {
+  content: "\f0b5";
+}
+:global .ri-shopping-basket-line:before {
+  content: "\f0b6";
+}
+:global .ri-shopping-cart-2-fill:before {
+  content: "\f0b7";
+}
+:global .ri-shopping-cart-2-line:before {
+  content: "\f0b8";
+}
+:global .ri-shopping-cart-fill:before {
+  content: "\f0b9";
+}
+:global .ri-shopping-cart-line:before {
+  content: "\f0ba";
+}
+:global .ri-showers-fill:before {
+  content: "\f0bb";
+}
+:global .ri-showers-line:before {
+  content: "\f0bc";
+}
+:global .ri-shuffle-fill:before {
+  content: "\f0bd";
+}
+:global .ri-shuffle-line:before {
+  content: "\f0be";
+}
+:global .ri-shut-down-fill:before {
+  content: "\f0bf";
+}
+:global .ri-shut-down-line:before {
+  content: "\f0c0";
+}
+:global .ri-side-bar-fill:before {
+  content: "\f0c1";
+}
+:global .ri-side-bar-line:before {
+  content: "\f0c2";
+}
+:global .ri-signal-tower-fill:before {
+  content: "\f0c3";
+}
+:global .ri-signal-tower-line:before {
+  content: "\f0c4";
+}
+:global .ri-signal-wifi-1-fill:before {
+  content: "\f0c5";
+}
+:global .ri-signal-wifi-1-line:before {
+  content: "\f0c6";
+}
+:global .ri-signal-wifi-2-fill:before {
+  content: "\f0c7";
+}
+:global .ri-signal-wifi-2-line:before {
+  content: "\f0c8";
+}
+:global .ri-signal-wifi-3-fill:before {
+  content: "\f0c9";
+}
+:global .ri-signal-wifi-3-line:before {
+  content: "\f0ca";
+}
+:global .ri-signal-wifi-error-fill:before {
+  content: "\f0cb";
+}
+:global .ri-signal-wifi-error-line:before {
+  content: "\f0cc";
+}
+:global .ri-signal-wifi-fill:before {
+  content: "\f0cd";
+}
+:global .ri-signal-wifi-line:before {
+  content: "\f0ce";
+}
+:global .ri-signal-wifi-off-fill:before {
+  content: "\f0cf";
+}
+:global .ri-signal-wifi-off-line:before {
+  content: "\f0d0";
+}
+:global .ri-sim-card-2-fill:before {
+  content: "\f0d1";
+}
+:global .ri-sim-card-2-line:before {
+  content: "\f0d2";
+}
+:global .ri-sim-card-fill:before {
+  content: "\f0d3";
+}
+:global .ri-sim-card-line:before {
+  content: "\f0d4";
+}
+:global .ri-single-quotes-l:before {
+  content: "\f0d5";
+}
+:global .ri-single-quotes-r:before {
+  content: "\f0d6";
+}
+:global .ri-sip-fill:before {
+  content: "\f0d7";
+}
+:global .ri-sip-line:before {
+  content: "\f0d8";
+}
+:global .ri-skip-back-fill:before {
+  content: "\f0d9";
+}
+:global .ri-skip-back-line:before {
+  content: "\f0da";
+}
+:global .ri-skip-back-mini-fill:before {
+  content: "\f0db";
+}
+:global .ri-skip-back-mini-line:before {
+  content: "\f0dc";
+}
+:global .ri-skip-forward-fill:before {
+  content: "\f0dd";
+}
+:global .ri-skip-forward-line:before {
+  content: "\f0de";
+}
+:global .ri-skip-forward-mini-fill:before {
+  content: "\f0df";
+}
+:global .ri-skip-forward-mini-line:before {
+  content: "\f0e0";
+}
+:global .ri-skull-2-fill:before {
+  content: "\f0e1";
+}
+:global .ri-skull-2-line:before {
+  content: "\f0e2";
+}
+:global .ri-skull-fill:before {
+  content: "\f0e3";
+}
+:global .ri-skull-line:before {
+  content: "\f0e4";
+}
+:global .ri-skype-fill:before {
+  content: "\f0e5";
+}
+:global .ri-skype-line:before {
+  content: "\f0e6";
+}
+:global .ri-slack-fill:before {
+  content: "\f0e7";
+}
+:global .ri-slack-line:before {
+  content: "\f0e8";
+}
+:global .ri-slice-fill:before {
+  content: "\f0e9";
+}
+:global .ri-slice-line:before {
+  content: "\f0ea";
+}
+:global .ri-slideshow-2-fill:before {
+  content: "\f0eb";
+}
+:global .ri-slideshow-2-line:before {
+  content: "\f0ec";
+}
+:global .ri-slideshow-3-fill:before {
+  content: "\f0ed";
+}
+:global .ri-slideshow-3-line:before {
+  content: "\f0ee";
+}
+:global .ri-slideshow-4-fill:before {
+  content: "\f0ef";
+}
+:global .ri-slideshow-4-line:before {
+  content: "\f0f0";
+}
+:global .ri-slideshow-fill:before {
+  content: "\f0f1";
+}
+:global .ri-slideshow-line:before {
+  content: "\f0f2";
+}
+:global .ri-smartphone-fill:before {
+  content: "\f0f3";
+}
+:global .ri-smartphone-line:before {
+  content: "\f0f4";
+}
+:global .ri-snapchat-fill:before {
+  content: "\f0f5";
+}
+:global .ri-snapchat-line:before {
+  content: "\f0f6";
+}
+:global .ri-snowy-fill:before {
+  content: "\f0f7";
+}
+:global .ri-snowy-line:before {
+  content: "\f0f8";
+}
+:global .ri-sort-asc:before {
+  content: "\f0f9";
+}
+:global .ri-sort-desc:before {
+  content: "\f0fa";
+}
+:global .ri-sound-module-fill:before {
+  content: "\f0fb";
+}
+:global .ri-sound-module-line:before {
+  content: "\f0fc";
+}
+:global .ri-soundcloud-fill:before {
+  content: "\f0fd";
+}
+:global .ri-soundcloud-line:before {
+  content: "\f0fe";
+}
+:global .ri-space-ship-fill:before {
+  content: "\f0ff";
+}
+:global .ri-space-ship-line:before {
+  content: "\f100";
+}
+:global .ri-space:before {
+  content: "\f101";
+}
+:global .ri-spam-2-fill:before {
+  content: "\f102";
+}
+:global .ri-spam-2-line:before {
+  content: "\f103";
+}
+:global .ri-spam-3-fill:before {
+  content: "\f104";
+}
+:global .ri-spam-3-line:before {
+  content: "\f105";
+}
+:global .ri-spam-fill:before {
+  content: "\f106";
+}
+:global .ri-spam-line:before {
+  content: "\f107";
+}
+:global .ri-speaker-2-fill:before {
+  content: "\f108";
+}
+:global .ri-speaker-2-line:before {
+  content: "\f109";
+}
+:global .ri-speaker-3-fill:before {
+  content: "\f10a";
+}
+:global .ri-speaker-3-line:before {
+  content: "\f10b";
+}
+:global .ri-speaker-fill:before {
+  content: "\f10c";
+}
+:global .ri-speaker-line:before {
+  content: "\f10d";
+}
+:global .ri-spectrum-fill:before {
+  content: "\f10e";
+}
+:global .ri-spectrum-line:before {
+  content: "\f10f";
+}
+:global .ri-speed-fill:before {
+  content: "\f110";
+}
+:global .ri-speed-line:before {
+  content: "\f111";
+}
+:global .ri-speed-mini-fill:before {
+  content: "\f112";
+}
+:global .ri-speed-mini-line:before {
+  content: "\f113";
+}
+:global .ri-spotify-fill:before {
+  content: "\f114";
+}
+:global .ri-spotify-line:before {
+  content: "\f115";
+}
+:global .ri-spy-fill:before {
+  content: "\f116";
+}
+:global .ri-spy-line:before {
+  content: "\f117";
+}
+:global .ri-stack-fill:before {
+  content: "\f118";
+}
+:global .ri-stack-line:before {
+  content: "\f119";
+}
+:global .ri-stack-overflow-fill:before {
+  content: "\f11a";
+}
+:global .ri-stack-overflow-line:before {
+  content: "\f11b";
+}
+:global .ri-stackshare-fill:before {
+  content: "\f11c";
+}
+:global .ri-stackshare-line:before {
+  content: "\f11d";
+}
+:global .ri-star-fill:before {
+  content: "\f11e";
+}
+:global .ri-star-half-fill:before {
+  content: "\f11f";
+}
+:global .ri-star-half-line:before {
+  content: "\f120";
+}
+:global .ri-star-half-s-fill:before {
+  content: "\f121";
+}
+:global .ri-star-half-s-line:before {
+  content: "\f122";
+}
+:global .ri-star-line:before {
+  content: "\f123";
+}
+:global .ri-star-s-fill:before {
+  content: "\f124";
+}
+:global .ri-star-s-line:before {
+  content: "\f125";
+}
+:global .ri-star-smile-fill:before {
+  content: "\f126";
+}
+:global .ri-star-smile-line:before {
+  content: "\f127";
+}
+:global .ri-steam-fill:before {
+  content: "\f128";
+}
+:global .ri-steam-line:before {
+  content: "\f129";
+}
+:global .ri-steering-2-fill:before {
+  content: "\f12a";
+}
+:global .ri-steering-2-line:before {
+  content: "\f12b";
+}
+:global .ri-steering-fill:before {
+  content: "\f12c";
+}
+:global .ri-steering-line:before {
+  content: "\f12d";
+}
+:global .ri-sticky-note-2-fill:before {
+  content: "\f12e";
+}
+:global .ri-sticky-note-2-line:before {
+  content: "\f12f";
+}
+:global .ri-sticky-note-fill:before {
+  content: "\f130";
+}
+:global .ri-sticky-note-line:before {
+  content: "\f131";
+}
+:global .ri-stock-fill:before {
+  content: "\f132";
+}
+:global .ri-stock-line:before {
+  content: "\f133";
+}
+:global .ri-stop-circle-fill:before {
+  content: "\f134";
+}
+:global .ri-stop-circle-line:before {
+  content: "\f135";
+}
+:global .ri-stop-fill:before {
+  content: "\f136";
+}
+:global .ri-stop-line:before {
+  content: "\f137";
+}
+:global .ri-stop-mini-fill:before {
+  content: "\f138";
+}
+:global .ri-stop-mini-line:before {
+  content: "\f139";
+}
+:global .ri-store-2-fill:before {
+  content: "\f13a";
+}
+:global .ri-store-2-line:before {
+  content: "\f13b";
+}
+:global .ri-store-3-fill:before {
+  content: "\f13c";
+}
+:global .ri-store-3-line:before {
+  content: "\f13d";
+}
+:global .ri-store-fill:before {
+  content: "\f13e";
+}
+:global .ri-store-line:before {
+  content: "\f13f";
+}
+:global .ri-strikethrough-2:before {
+  content: "\f140";
+}
+:global .ri-strikethrough:before {
+  content: "\f141";
+}
+:global .ri-subscript-2:before {
+  content: "\f142";
+}
+:global .ri-subscript:before {
+  content: "\f143";
+}
+:global .ri-subtract-fill:before {
+  content: "\f144";
+}
+:global .ri-subtract-line:before {
+  content: "\f145";
+}
+:global .ri-subway-fill:before {
+  content: "\f146";
+}
+:global .ri-subway-line:before {
+  content: "\f147";
+}
+:global .ri-subway-wifi-fill:before {
+  content: "\f148";
+}
+:global .ri-subway-wifi-line:before {
+  content: "\f149";
+}
+:global .ri-suitcase-2-fill:before {
+  content: "\f14a";
+}
+:global .ri-suitcase-2-line:before {
+  content: "\f14b";
+}
+:global .ri-suitcase-3-fill:before {
+  content: "\f14c";
+}
+:global .ri-suitcase-3-line:before {
+  content: "\f14d";
+}
+:global .ri-suitcase-fill:before {
+  content: "\f14e";
+}
+:global .ri-suitcase-line:before {
+  content: "\f14f";
+}
+:global .ri-sun-cloudy-fill:before {
+  content: "\f150";
+}
+:global .ri-sun-cloudy-line:before {
+  content: "\f151";
+}
+:global .ri-sun-fill:before {
+  content: "\f152";
+}
+:global .ri-sun-foggy-fill:before {
+  content: "\f153";
+}
+:global .ri-sun-foggy-line:before {
+  content: "\f154";
+}
+:global .ri-sun-line:before {
+  content: "\f155";
+}
+:global .ri-superscript-2:before {
+  content: "\f156";
+}
+:global .ri-superscript:before {
+  content: "\f157";
+}
+:global .ri-surround-sound-fill:before {
+  content: "\f158";
+}
+:global .ri-surround-sound-line:before {
+  content: "\f159";
+}
+:global .ri-survey-fill:before {
+  content: "\f15a";
+}
+:global .ri-survey-line:before {
+  content: "\f15b";
+}
+:global .ri-swap-box-fill:before {
+  content: "\f15c";
+}
+:global .ri-swap-box-line:before {
+  content: "\f15d";
+}
+:global .ri-swap-fill:before {
+  content: "\f15e";
+}
+:global .ri-swap-line:before {
+  content: "\f15f";
+}
+:global .ri-switch-fill:before {
+  content: "\f160";
+}
+:global .ri-switch-line:before {
+  content: "\f161";
+}
+:global .ri-sword-fill:before {
+  content: "\f162";
+}
+:global .ri-sword-line:before {
+  content: "\f163";
+}
+:global .ri-t-box-fill:before {
+  content: "\f164";
+}
+:global .ri-t-box-line:before {
+  content: "\f165";
+}
+:global .ri-t-shirt-2-fill:before {
+  content: "\f166";
+}
+:global .ri-t-shirt-2-line:before {
+  content: "\f167";
+}
+:global .ri-t-shirt-air-fill:before {
+  content: "\f168";
+}
+:global .ri-t-shirt-air-line:before {
+  content: "\f169";
+}
+:global .ri-t-shirt-fill:before {
+  content: "\f16a";
+}
+:global .ri-t-shirt-line:before {
+  content: "\f16b";
+}
+:global .ri-table-2:before {
+  content: "\f16c";
+}
+:global .ri-table-alt-fill:before {
+  content: "\f16d";
+}
+:global .ri-table-alt-line:before {
+  content: "\f16e";
+}
+:global .ri-table-fill:before {
+  content: "\f16f";
+}
+:global .ri-table-line:before {
+  content: "\f170";
+}
+:global .ri-tablet-fill:before {
+  content: "\f171";
+}
+:global .ri-tablet-line:before {
+  content: "\f172";
+}
+:global .ri-takeaway-fill:before {
+  content: "\f173";
+}
+:global .ri-takeaway-line:before {
+  content: "\f174";
+}
+:global .ri-taobao-fill:before {
+  content: "\f175";
+}
+:global .ri-taobao-line:before {
+  content: "\f176";
+}
+:global .ri-tape-fill:before {
+  content: "\f177";
+}
+:global .ri-tape-line:before {
+  content: "\f178";
+}
+:global .ri-task-fill:before {
+  content: "\f179";
+}
+:global .ri-task-line:before {
+  content: "\f17a";
+}
+:global .ri-taxi-fill:before {
+  content: "\f17b";
+}
+:global .ri-taxi-line:before {
+  content: "\f17c";
+}
+:global .ri-taxi-wifi-fill:before {
+  content: "\f17d";
+}
+:global .ri-taxi-wifi-line:before {
+  content: "\f17e";
+}
+:global .ri-team-fill:before {
+  content: "\f17f";
+}
+:global .ri-team-line:before {
+  content: "\f180";
+}
+:global .ri-telegram-fill:before {
+  content: "\f181";
+}
+:global .ri-telegram-line:before {
+  content: "\f182";
+}
+:global .ri-temp-cold-fill:before {
+  content: "\f183";
+}
+:global .ri-temp-cold-line:before {
+  content: "\f184";
+}
+:global .ri-temp-hot-fill:before {
+  content: "\f185";
+}
+:global .ri-temp-hot-line:before {
+  content: "\f186";
+}
+:global .ri-terminal-box-fill:before {
+  content: "\f187";
+}
+:global .ri-terminal-box-line:before {
+  content: "\f188";
+}
+:global .ri-terminal-fill:before {
+  content: "\f189";
+}
+:global .ri-terminal-line:before {
+  content: "\f18a";
+}
+:global .ri-terminal-window-fill:before {
+  content: "\f18b";
+}
+:global .ri-terminal-window-line:before {
+  content: "\f18c";
+}
+:global .ri-text-direction-l:before {
+  content: "\f18d";
+}
+:global .ri-text-direction-r:before {
+  content: "\f18e";
+}
+:global .ri-text-spacing:before {
+  content: "\f18f";
+}
+:global .ri-text-wrap:before {
+  content: "\f190";
+}
+:global .ri-text:before {
+  content: "\f191";
+}
+:global .ri-thumb-down-fill:before {
+  content: "\f192";
+}
+:global .ri-thumb-down-line:before {
+  content: "\f193";
+}
+:global .ri-thumb-up-fill:before {
+  content: "\f194";
+}
+:global .ri-thumb-up-line:before {
+  content: "\f195";
+}
+:global .ri-thunderstorms-fill:before {
+  content: "\f196";
+}
+:global .ri-thunderstorms-line:before {
+  content: "\f197";
+}
+:global .ri-ticket-2-fill:before {
+  content: "\f198";
+}
+:global .ri-ticket-2-line:before {
+  content: "\f199";
+}
+:global .ri-ticket-fill:before {
+  content: "\f19a";
+}
+:global .ri-ticket-line:before {
+  content: "\f19b";
+}
+:global .ri-time-fill:before {
+  content: "\f19c";
+}
+:global .ri-time-line:before {
+  content: "\f19d";
+}
+:global .ri-timer-2-fill:before {
+  content: "\f19e";
+}
+:global .ri-timer-2-line:before {
+  content: "\f19f";
+}
+:global .ri-timer-fill:before {
+  content: "\f1a0";
+}
+:global .ri-timer-flash-fill:before {
+  content: "\f1a1";
+}
+:global .ri-timer-flash-line:before {
+  content: "\f1a2";
+}
+:global .ri-timer-line:before {
+  content: "\f1a3";
+}
+:global .ri-todo-fill:before {
+  content: "\f1a4";
+}
+:global .ri-todo-line:before {
+  content: "\f1a5";
+}
+:global .ri-toggle-fill:before {
+  content: "\f1a6";
+}
+:global .ri-toggle-line:before {
+  content: "\f1a7";
+}
+:global .ri-tools-fill:before {
+  content: "\f1a8";
+}
+:global .ri-tools-line:before {
+  content: "\f1a9";
+}
+:global .ri-tornado-fill:before {
+  content: "\f1aa";
+}
+:global .ri-tornado-line:before {
+  content: "\f1ab";
+}
+:global .ri-trademark-fill:before {
+  content: "\f1ac";
+}
+:global .ri-trademark-line:before {
+  content: "\f1ad";
+}
+:global .ri-traffic-light-fill:before {
+  content: "\f1ae";
+}
+:global .ri-traffic-light-line:before {
+  content: "\f1af";
+}
+:global .ri-train-fill:before {
+  content: "\f1b0";
+}
+:global .ri-train-line:before {
+  content: "\f1b1";
+}
+:global .ri-train-wifi-fill:before {
+  content: "\f1b2";
+}
+:global .ri-train-wifi-line:before {
+  content: "\f1b3";
+}
+:global .ri-translate-2:before {
+  content: "\f1b4";
+}
+:global .ri-translate:before {
+  content: "\f1b5";
+}
+:global .ri-travesti-fill:before {
+  content: "\f1b6";
+}
+:global .ri-travesti-line:before {
+  content: "\f1b7";
+}
+:global .ri-treasure-map-fill:before {
+  content: "\f1b8";
+}
+:global .ri-treasure-map-line:before {
+  content: "\f1b9";
+}
+:global .ri-trello-fill:before {
+  content: "\f1ba";
+}
+:global .ri-trello-line:before {
+  content: "\f1bb";
+}
+:global .ri-trophy-fill:before {
+  content: "\f1bc";
+}
+:global .ri-trophy-line:before {
+  content: "\f1bd";
+}
+:global .ri-truck-fill:before {
+  content: "\f1be";
+}
+:global .ri-truck-line:before {
+  content: "\f1bf";
+}
+:global .ri-tumblr-fill:before {
+  content: "\f1c0";
+}
+:global .ri-tumblr-line:before {
+  content: "\f1c1";
+}
+:global .ri-tv-2-fill:before {
+  content: "\f1c2";
+}
+:global .ri-tv-2-line:before {
+  content: "\f1c3";
+}
+:global .ri-tv-fill:before {
+  content: "\f1c4";
+}
+:global .ri-tv-line:before {
+  content: "\f1c5";
+}
+:global .ri-twitch-fill:before {
+  content: "\f1c6";
+}
+:global .ri-twitch-line:before {
+  content: "\f1c7";
+}
+:global .ri-twitter-fill:before {
+  content: "\f1c8";
+}
+:global .ri-twitter-line:before {
+  content: "\f1c9";
+}
+:global .ri-typhoon-fill:before {
+  content: "\f1ca";
+}
+:global .ri-typhoon-line:before {
+  content: "\f1cb";
+}
+:global .ri-u-disk-fill:before {
+  content: "\f1cc";
+}
+:global .ri-u-disk-line:before {
+  content: "\f1cd";
+}
+:global .ri-ubuntu-fill:before {
+  content: "\f1ce";
+}
+:global .ri-ubuntu-line:before {
+  content: "\f1cf";
+}
+:global .ri-umbrella-fill:before {
+  content: "\f1d0";
+}
+:global .ri-umbrella-line:before {
+  content: "\f1d1";
+}
+:global .ri-underline:before {
+  content: "\f1d2";
+}
+:global .ri-uninstall-fill:before {
+  content: "\f1d3";
+}
+:global .ri-uninstall-line:before {
+  content: "\f1d4";
+}
+:global .ri-unsplash-fill:before {
+  content: "\f1d5";
+}
+:global .ri-unsplash-line:before {
+  content: "\f1d6";
+}
+:global .ri-upload-2-fill:before {
+  content: "\f1d7";
+}
+:global .ri-upload-2-line:before {
+  content: "\f1d8";
+}
+:global .ri-upload-cloud-2-fill:before {
+  content: "\f1d9";
+}
+:global .ri-upload-cloud-2-line:before {
+  content: "\f1da";
+}
+:global .ri-upload-cloud-fill:before {
+  content: "\f1db";
+}
+:global .ri-upload-cloud-line:before {
+  content: "\f1dc";
+}
+:global .ri-upload-fill:before {
+  content: "\f1dd";
+}
+:global .ri-upload-line:before {
+  content: "\f1de";
+}
+:global .ri-user-2-fill:before {
+  content: "\f1df";
+}
+:global .ri-user-2-line:before {
+  content: "\f1e0";
+}
+:global .ri-user-3-fill:before {
+  content: "\f1e1";
+}
+:global .ri-user-3-line:before {
+  content: "\f1e2";
+}
+:global .ri-user-4-fill:before {
+  content: "\f1e3";
+}
+:global .ri-user-4-line:before {
+  content: "\f1e4";
+}
+:global .ri-user-5-fill:before {
+  content: "\f1e5";
+}
+:global .ri-user-5-line:before {
+  content: "\f1e6";
+}
+:global .ri-user-6-fill:before {
+  content: "\f1e7";
+}
+:global .ri-user-6-line:before {
+  content: "\f1e8";
+}
+:global .ri-user-add-fill:before {
+  content: "\f1e9";
+}
+:global .ri-user-add-line:before {
+  content: "\f1ea";
+}
+:global .ri-user-fill:before {
+  content: "\f1eb";
+}
+:global .ri-user-follow-fill:before {
+  content: "\f1ec";
+}
+:global .ri-user-follow-line:before {
+  content: "\f1ed";
+}
+:global .ri-user-heart-fill:before {
+  content: "\f1ee";
+}
+:global .ri-user-heart-line:before {
+  content: "\f1ef";
+}
+:global .ri-user-line:before {
+  content: "\f1f0";
+}
+:global .ri-user-location-fill:before {
+  content: "\f1f1";
+}
+:global .ri-user-location-line:before {
+  content: "\f1f2";
+}
+:global .ri-user-received-2-fill:before {
+  content: "\f1f3";
+}
+:global .ri-user-received-2-line:before {
+  content: "\f1f4";
+}
+:global .ri-user-received-fill:before {
+  content: "\f1f5";
+}
+:global .ri-user-received-line:before {
+  content: "\f1f6";
+}
+:global .ri-user-search-fill:before {
+  content: "\f1f7";
+}
+:global .ri-user-search-line:before {
+  content: "\f1f8";
+}
+:global .ri-user-settings-fill:before {
+  content: "\f1f9";
+}
+:global .ri-user-settings-line:before {
+  content: "\f1fa";
+}
+:global .ri-user-shared-2-fill:before {
+  content: "\f1fb";
+}
+:global .ri-user-shared-2-line:before {
+  content: "\f1fc";
+}
+:global .ri-user-shared-fill:before {
+  content: "\f1fd";
+}
+:global .ri-user-shared-line:before {
+  content: "\f1fe";
+}
+:global .ri-user-smile-fill:before {
+  content: "\f1ff";
+}
+:global .ri-user-smile-line:before {
+  content: "\f200";
+}
+:global .ri-user-star-fill:before {
+  content: "\f201";
+}
+:global .ri-user-star-line:before {
+  content: "\f202";
+}
+:global .ri-user-unfollow-fill:before {
+  content: "\f203";
+}
+:global .ri-user-unfollow-line:before {
+  content: "\f204";
+}
+:global .ri-user-voice-fill:before {
+  content: "\f205";
+}
+:global .ri-user-voice-line:before {
+  content: "\f206";
+}
+:global .ri-video-add-fill:before {
+  content: "\f207";
+}
+:global .ri-video-add-line:before {
+  content: "\f208";
+}
+:global .ri-video-chat-fill:before {
+  content: "\f209";
+}
+:global .ri-video-chat-line:before {
+  content: "\f20a";
+}
+:global .ri-video-download-fill:before {
+  content: "\f20b";
+}
+:global .ri-video-download-line:before {
+  content: "\f20c";
+}
+:global .ri-video-fill:before {
+  content: "\f20d";
+}
+:global .ri-video-line:before {
+  content: "\f20e";
+}
+:global .ri-video-upload-fill:before {
+  content: "\f20f";
+}
+:global .ri-video-upload-line:before {
+  content: "\f210";
+}
+:global .ri-vidicon-2-fill:before {
+  content: "\f211";
+}
+:global .ri-vidicon-2-line:before {
+  content: "\f212";
+}
+:global .ri-vidicon-fill:before {
+  content: "\f213";
+}
+:global .ri-vidicon-line:before {
+  content: "\f214";
+}
+:global .ri-vip-crown-2-fill:before {
+  content: "\f215";
+}
+:global .ri-vip-crown-2-line:before {
+  content: "\f216";
+}
+:global .ri-vip-crown-fill:before {
+  content: "\f217";
+}
+:global .ri-vip-crown-line:before {
+  content: "\f218";
+}
+:global .ri-vip-diamond-fill:before {
+  content: "\f219";
+}
+:global .ri-vip-diamond-line:before {
+  content: "\f21a";
+}
+:global .ri-vip-fill:before {
+  content: "\f21b";
+}
+:global .ri-vip-line:before {
+  content: "\f21c";
+}
+:global .ri-visa-fill:before {
+  content: "\f21d";
+}
+:global .ri-visa-line:before {
+  content: "\f21e";
+}
+:global .ri-voice-recognition-fill:before {
+  content: "\f21f";
+}
+:global .ri-voice-recognition-line:before {
+  content: "\f220";
+}
+:global .ri-voiceprint-fill:before {
+  content: "\f221";
+}
+:global .ri-voiceprint-line:before {
+  content: "\f222";
+}
+:global .ri-volume-down-fill:before {
+  content: "\f223";
+}
+:global .ri-volume-down-line:before {
+  content: "\f224";
+}
+:global .ri-volume-mute-fill:before {
+  content: "\f225";
+}
+:global .ri-volume-mute-line:before {
+  content: "\f226";
+}
+:global .ri-volume-off-vibrate-fill:before {
+  content: "\f227";
+}
+:global .ri-volume-off-vibrate-line:before {
+  content: "\f228";
+}
+:global .ri-volume-up-fill:before {
+  content: "\f229";
+}
+:global .ri-volume-up-line:before {
+  content: "\f22a";
+}
+:global .ri-volume-vibrate-fill:before {
+  content: "\f22b";
+}
+:global .ri-volume-vibrate-line:before {
+  content: "\f22c";
+}
+:global .ri-vuejs-fill:before {
+  content: "\f22d";
+}
+:global .ri-vuejs-line:before {
+  content: "\f22e";
+}
+:global .ri-walk-fill:before {
+  content: "\f22f";
+}
+:global .ri-walk-line:before {
+  content: "\f230";
+}
+:global .ri-wallet-2-fill:before {
+  content: "\f231";
+}
+:global .ri-wallet-2-line:before {
+  content: "\f232";
+}
+:global .ri-wallet-3-fill:before {
+  content: "\f233";
+}
+:global .ri-wallet-3-line:before {
+  content: "\f234";
+}
+:global .ri-wallet-fill:before {
+  content: "\f235";
+}
+:global .ri-wallet-line:before {
+  content: "\f236";
+}
+:global .ri-water-flash-fill:before {
+  content: "\f237";
+}
+:global .ri-water-flash-line:before {
+  content: "\f238";
+}
+:global .ri-webcam-fill:before {
+  content: "\f239";
+}
+:global .ri-webcam-line:before {
+  content: "\f23a";
+}
+:global .ri-wechat-2-fill:before {
+  content: "\f23b";
+}
+:global .ri-wechat-2-line:before {
+  content: "\f23c";
+}
+:global .ri-wechat-fill:before {
+  content: "\f23d";
+}
+:global .ri-wechat-line:before {
+  content: "\f23e";
+}
+:global .ri-wechat-pay-fill:before {
+  content: "\f23f";
+}
+:global .ri-wechat-pay-line:before {
+  content: "\f240";
+}
+:global .ri-weibo-fill:before {
+  content: "\f241";
+}
+:global .ri-weibo-line:before {
+  content: "\f242";
+}
+:global .ri-whatsapp-fill:before {
+  content: "\f243";
+}
+:global .ri-whatsapp-line:before {
+  content: "\f244";
+}
+:global .ri-wheelchair-fill:before {
+  content: "\f245";
+}
+:global .ri-wheelchair-line:before {
+  content: "\f246";
+}
+:global .ri-wifi-fill:before {
+  content: "\f247";
+}
+:global .ri-wifi-line:before {
+  content: "\f248";
+}
+:global .ri-wifi-off-fill:before {
+  content: "\f249";
+}
+:global .ri-wifi-off-line:before {
+  content: "\f24a";
+}
+:global .ri-window-2-fill:before {
+  content: "\f24b";
+}
+:global .ri-window-2-line:before {
+  content: "\f24c";
+}
+:global .ri-window-fill:before {
+  content: "\f24d";
+}
+:global .ri-window-line:before {
+  content: "\f24e";
+}
+:global .ri-windows-fill:before {
+  content: "\f24f";
+}
+:global .ri-windows-line:before {
+  content: "\f250";
+}
+:global .ri-windy-fill:before {
+  content: "\f251";
+}
+:global .ri-windy-line:before {
+  content: "\f252";
+}
+:global .ri-wireless-charging-fill:before {
+  content: "\f253";
+}
+:global .ri-wireless-charging-line:before {
+  content: "\f254";
+}
+:global .ri-women-fill:before {
+  content: "\f255";
+}
+:global .ri-women-line:before {
+  content: "\f256";
+}
+:global .ri-wubi-input:before {
+  content: "\f257";
+}
+:global .ri-xbox-fill:before {
+  content: "\f258";
+}
+:global .ri-xbox-line:before {
+  content: "\f259";
+}
+:global .ri-xing-fill:before {
+  content: "\f25a";
+}
+:global .ri-xing-line:before {
+  content: "\f25b";
+}
+:global .ri-youtube-fill:before {
+  content: "\f25c";
+}
+:global .ri-youtube-line:before {
+  content: "\f25d";
+}
+:global .ri-zcool-fill:before {
+  content: "\f25e";
+}
+:global .ri-zcool-line:before {
+  content: "\f25f";
+}
+:global .ri-zhihu-fill:before {
+  content: "\f260";
+}
+:global .ri-zhihu-line:before {
+  content: "\f261";
+}
+:global .ri-zoom-in-fill:before {
+  content: "\f262";
+}
+:global .ri-zoom-in-line:before {
+  content: "\f263";
+}
+:global .ri-zoom-out-fill:before {
+  content: "\f264";
+}
+:global .ri-zoom-out-line:before {
+  content: "\f265";
+}
